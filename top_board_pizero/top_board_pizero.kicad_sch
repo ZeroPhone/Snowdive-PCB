@@ -6132,7 +6132,7 @@
 	)
 	(text "0x55"
 		(exclude_from_sim no)
-		(at 186.182 101.6 0)
+		(at 196.85 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 		)
 		(uuid "2734fb65-6645-4b91-a9a5-8a7f350ff3ae")
 	)
-	(text "TODO\n\n[ ] more ESD diodes on FFC\n[ ] 2.2k pulldown on mic (i forgor)\n[ ] thicken sim_vdd track\n[ ] expose a7682e uart\n[ ] pin 1 markers everywhere\n  [ ] for meowpixels\n\n[?] pushbuttons?\n[?] antenna cable slot\n[?] temp sensors on i2c\n[n] microsd\n[n] re-silk jumpers\n\n[x] modem\n  [x] power\n  [x] ANT\n  [x] mic\n  [x] speaker?\n  [x] verify all\n  [x] LEDs\n  [x] power switch\n  [n] uart shifting\n[x] buck fb resistors\n[x] more 100nF caps?\n[x] replace those 10ufs\n[x] one (or two) mounting hole pls :pray:\n[x] recheck mux default states\n[x] review all muxes\n[x] review all SY resistors\n[x] caps for VBUS switch\n[x] check all gpio defaults\n[x] unjumper SDIO resistors\n[x] review inductors\n  [x] buck\n  [x] boost\n[x] CPU USB uplink\n[x] expander INT handling\n[x] UART mux\n[x] SDIO routing\n[x] add SDIO resistors\n[x] expansion header\n  [x] expansion header Ilimit\n    [x] vbat\n    [x] 3v\n    [x] 5v\n[x] second expander\n[x] default states for all muxes\n[x] wire USB hub to FFC\n[x] clean GND at the top\n[x] wire usb hub power to usb mux sel\n[x] hardware switches\n  [x] modem\n  [x] USB data\n  [x] WiFi\n[x] BACKLIGHT CURRENT LIMIT\n[x] expander int mux\n[x] screen backlight\n[x] id eeprom\n[x] eeprom on cpu i2c\n[x] neopixels\n[x] tpm pins to gpio12/13\n[x] esp32 usb on qwiic"
+	(text "TODO\n\n[ ] serial number field\n[ ] 5V for display backlight to actual 5V\n[ ] buttons on the front (for ZPUI) maybe?\n[ ] hall sensor\n[ ] markings for hardware switches!\n[ ] fix the gpio (?)\n[ ] add buttons/switches\n[ ] more ESD diodes on FFC\n[ ] 2.2k pulldown on mic (i forgor)\n[ ] thicken sim_vdd track\n[ ] expose a7682e uart\n[ ] pin 1 markers everywhere\n  [ ] meowpixels\n  [ ] TVS diode\n[ ] temp sensors on i2c\n\n[?] antenna cable slot\n[n] re-silk jumpers\n\n[x] modem\n  [x] power\n  [x] ANT\n  [x] mic\n  [x] speaker?\n  [x] verify all\n  [x] LEDs\n  [x] power switch\n  [n] uart shifting\n[x] buck fb resistors\n[x] more 100nF caps?\n[x] replace those 10ufs\n[x] one (or two) mounting hole pls :pray:\n[x] recheck mux default states\n[x] review all muxes\n[x] review all SY resistors\n[x] caps for VBUS switch\n[x] check all gpio defaults\n[x] unjumper SDIO resistors\n[x] review inductors\n  [x] buck\n  [x] boost\n[x] CPU USB uplink\n[x] expander INT handling\n[x] UART mux\n[x] SDIO routing\n[x] add SDIO resistors\n[x] expansion header\n  [x] expansion header Ilimit\n    [x] vbat\n    [x] 3v\n    [x] 5v\n[x] second expander\n[x] default states for all muxes\n[x] wire USB hub to FFC\n[x] clean GND at the top\n[x] wire usb hub power to usb mux sel\n[x] hardware switches\n  [x] modem\n  [x] USB data\n  [x] WiFi\n[x] BACKLIGHT CURRENT LIMIT\n[x] expander int mux\n[x] screen backlight\n[x] id eeprom\n[x] eeprom on cpu i2c\n[x] neopixels\n[x] tpm pins to gpio12/13\n[x] esp32 usb on qwiic"
 		(exclude_from_sim no)
 		(at 304.8 100.838 0)
 		(effects
@@ -6193,7 +6193,7 @@
 	)
 	(text "power for IO expanders, so that\nthey're also powered during CPU off"
 		(exclude_from_sim no)
-		(at 134.62 110.744 0)
+		(at 171.704 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6302,7 +6302,7 @@
 		(uuid "56feea9b-60d7-45ab-8243-97597bbb7e1a")
 	)
 	(junction
-		(at 160.02 96.52)
+		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a9a4337-f02e-4b8d-95ef-c1f2eae6a64d")
@@ -7337,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 160.02 96.52)
+			(xy 133.35 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7557,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 156.21 96.52)
+			(xy 127 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7567,7 +7567,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 160.02 102.87)
+			(xy 127 102.87) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10439,7 +10439,7 @@
 	)
 	(global_label "ESP_EN"
 		(shape input)
-		(at 166.37 96.52 0)
+		(at 133.35 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10449,7 +10449,7 @@
 		)
 		(uuid "d823e44e-304e-419b-8ee1-d1bf7b0d0150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4308 96.52 0)
+			(at 143.4108 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,7 +10946,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 184.15 115.57 270)
+		(at 180.34 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10954,7 +10954,7 @@
 		(dnp no)
 		(uuid "0576ca2c-edf0-4f70-bb06-fb2575d04cb2")
 		(property "Reference" "#PWR0107"
-			(at 180.34 115.57 0)
+			(at 176.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +10963,7 @@
 			)
 		)
 		(property "Value" "3V3_Pi_1"
-			(at 187.452 115.824 90)
+			(at 183.642 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +10972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 115.57 0)
+			(at 180.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +10981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 115.57 0)
+			(at 180.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 115.57 0)
+			(at 180.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,7 +14042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 153.67 96.52 90)
+		(at 120.65 97.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14051,7 +14051,7 @@
 		(dnp no)
 		(uuid "5ad85f73-9583-45de-8110-88f5ae9b026b")
 		(property "Reference" "R82"
-			(at 152.908 102.108 0)
+			(at 119.888 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14060,7 +14060,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 154.94 98.298 0)
+			(at 121.92 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +14069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 153.67 96.52 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,7 +14078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 96.52 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14087,7 +14087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 96.52 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14096,7 +14096,7 @@
 			)
 		)
 		(property "LCSC Part" "C25905"
-			(at 153.67 96.52 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +14104,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 153.67 96.52 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,16 +14910,15 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV70")
-		(at 176.53 115.57 0)
+		(at 172.72 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79f292ec-b9d0-4ba5-8df7-53fee4ef41ec")
 		(property "Reference" "D2"
-			(at 176.53 109.22 0)
+			(at 166.624 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14927,7 +14926,7 @@
 			)
 		)
 		(property "Value" "BAV70"
-			(at 176.53 111.76 0)
+			(at 177.292 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14935,7 +14934,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 176.53 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14944,7 +14943,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
-			(at 176.53 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +14952,7 @@
 			)
 		)
 		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
-			(at 176.53 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,7 +14961,7 @@
 			)
 		)
 		(property "LCSC Part" "C2501"
-			(at 176.53 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15338,7 @@
 	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 168.91 115.57 90)
+		(at 165.1 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15347,7 +15346,7 @@
 		(dnp no)
 		(uuid "88c31ed3-31ad-402d-a7e2-1bd3d3695bcc")
 		(property "Reference" "#PWR05"
-			(at 172.72 115.57 0)
+			(at 168.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15356,7 +15355,7 @@
 			)
 		)
 		(property "Value" "+3V3_EC"
-			(at 165.862 115.57 90)
+			(at 162.052 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15365,7 +15364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 115.57 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 115.57 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,7 +15382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 168.91 115.57 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 102.87 0)
+		(at 127 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16062,7 +16061,7 @@
 		(dnp no)
 		(uuid "97e459a6-9fd8-472e-8980-e20e3d99d86f")
 		(property "Reference" "#PWR0216"
-			(at 160.02 109.22 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 106.68 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +16078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 102.87 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,7 +16087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 102.87 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +16096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 102.87 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16802,7 +16801,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 151.13 96.52 0)
+		(at 118.11 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16811,7 +16810,7 @@
 		(dnp no)
 		(uuid "b3114e4d-28cf-46b5-85bb-fdbba0f1643f")
 		(property "Reference" "#PWR0211"
-			(at 151.13 100.33 0)
+			(at 118.11 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,7 +16819,7 @@
 			)
 		)
 		(property "Value" "+3V3_ESP32"
-			(at 156.718 92.202 0)
+			(at 123.698 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,7 +16828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 96.52 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16838,7 +16837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16847,7 +16846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 96.52 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,7 +16998,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 176.53 120.65 180)
+		(at 172.72 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17007,7 +17006,7 @@
 		(dnp no)
 		(uuid "b4394618-ae42-49a8-8d69-5263fa0f5a32")
 		(property "Reference" "#PWR0221"
-			(at 176.53 116.84 0)
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17016,7 +17015,7 @@
 			)
 		)
 		(property "Value" "+3V3_IO"
-			(at 176.53 123.952 0)
+			(at 172.72 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17024,7 +17023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 120.65 0)
+			(at 172.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17033,7 +17032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 120.65 0)
+			(at 172.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17042,7 +17041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 120.65 0)
+			(at 172.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18566,10 +18565,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4d58150-e4e4-437d-9945-67f5be52ad32")
 		(property "Reference" "U28"
-			(at 219.71 120.65 0)
+			(at 219.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18577,7 +18575,7 @@
 			)
 		)
 		(property "Value" "XL9535QF24"
-			(at 219.71 123.19 0)
+			(at 219.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18602,7 +18600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TOP"
+		(property "Description" "exp B"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -19454,10 +19452,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eafd7245-cb53-4247-83a6-8799f284456e")
 		(property "Reference" "U27"
-			(at 143.51 115.57 0)
+			(at 143.764 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19465,7 +19462,7 @@
 			)
 		)
 		(property "Value" "XL9535QF24"
-			(at 143.51 118.11 0)
+			(at 143.764 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19490,8 +19487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TOP"
-			(at 143.51 137.16 0)
+		(property "Description" "exp A"
+			(at 143.51 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20028,7 +20025,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.02 99.06 0)
+		(at 127 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20037,7 +20034,7 @@
 		(dnp no)
 		(uuid "f8bd2d8a-b29f-4f85-85f6-73400b5005bd")
 		(property "Reference" "C19"
-			(at 165.354 97.536 0)
+			(at 132.334 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20046,7 +20043,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 167.132 100.838 0)
+			(at 134.112 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20055,7 +20052,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.02 99.06 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20064,7 +20061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 99.06 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20073,7 +20070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 99.06 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20082,7 +20079,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 160.02 99.06 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20090,7 +20087,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 160.02 99.06 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
