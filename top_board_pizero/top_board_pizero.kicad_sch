@@ -6130,6 +6130,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "93\n92\n91\n90\n89"
+		(exclude_from_sim no)
+		(at 217.932 151.384 0)
+		(effects
+			(font
+				(size 1.6002 1.6002)
+			)
+		)
+		(uuid "16a4027f-886a-4ba5-b14a-b9ade961ecef")
+	)
 	(text "0x55"
 		(exclude_from_sim no)
 		(at 196.85 95.504 0)
@@ -6150,7 +6160,7 @@
 		)
 		(uuid "2734fb65-6645-4b91-a9a5-8a7f350ff3ae")
 	)
-	(text "TODO\n\n[ ] serial number field\n[ ] 5V for display backlight to actual 5V\n[ ] buttons on the front (for ZPUI) maybe?\n[ ] hall sensor\n[ ] markings for hardware switches!\n[ ] fix the gpio (?)\n[ ] add buttons/switches\n[ ] more ESD diodes on FFC\n[ ] 2.2k pulldown on mic (i forgor)\n[ ] thicken sim_vdd track\n[ ] expose a7682e uart\n[ ] pin 1 markers everywhere\n  [ ] meowpixels\n  [ ] TVS diode\n[ ] temp sensors on i2c\n\n[?] antenna cable slot\n[n] re-silk jumpers\n\n[x] modem\n  [x] power\n  [x] ANT\n  [x] mic\n  [x] speaker?\n  [x] verify all\n  [x] LEDs\n  [x] power switch\n  [n] uart shifting\n[x] buck fb resistors\n[x] more 100nF caps?\n[x] replace those 10ufs\n[x] one (or two) mounting hole pls :pray:\n[x] recheck mux default states\n[x] review all muxes\n[x] review all SY resistors\n[x] caps for VBUS switch\n[x] check all gpio defaults\n[x] unjumper SDIO resistors\n[x] review inductors\n  [x] buck\n  [x] boost\n[x] CPU USB uplink\n[x] expander INT handling\n[x] UART mux\n[x] SDIO routing\n[x] add SDIO resistors\n[x] expansion header\n  [x] expansion header Ilimit\n    [x] vbat\n    [x] 3v\n    [x] 5v\n[x] second expander\n[x] default states for all muxes\n[x] wire USB hub to FFC\n[x] clean GND at the top\n[x] wire usb hub power to usb mux sel\n[x] hardware switches\n  [x] modem\n  [x] USB data\n  [x] WiFi\n[x] BACKLIGHT CURRENT LIMIT\n[x] expander int mux\n[x] screen backlight\n[x] id eeprom\n[x] eeprom on cpu i2c\n[x] neopixels\n[x] tpm pins to gpio12/13\n[x] esp32 usb on qwiic"
+	(text "TODO\n\n[ ] current sensor for CPU consumption!\n[ ] reposition neopixels to accommodate radxa under-board microsd slots (make them vertical, move closer to exp)\n[ ] conn for cool display touch\n[ ] dual HAT EEPROM! (switch ADDR by IO_MUX_SEL)\n  [ ] with override from an EC GPIO? maybe? idk it shouldn't be needed\n[ ] serial number field\n[ ] 5V for display backlight to actual 5V\n[ ] buttons on the front (for ZPUI) maybe?\n  [ ] that one tiny 5-way keypad\n  [ ] or one of those tiney joysticks\n  [ ] TODO go through my newly acquired funny switches trove, lmfao\n[ ] hall sensor\n[ ] markings for hardware switches!\n[ ] fix the gpio (?)\n[ ] add buttons/switches\n[ ] more ESD diodes on FFC\n[ ] 2.2k pulldown on mic (i forgor)\n[ ] thicken sim_vdd track\n[ ] expose a7682e uart\n[ ] pin 1 markers everywhere\n  [ ] meowpixels\n  [ ] TVS diode\n[ ] temp sensors on i2c!\n\n[?] antenna cable slot\n[n] re-silk jumpers\n\n[x] modem\n  [x] power\n  [x] ANT\n  [x] mic\n  [x] speaker?\n  [x] verify all\n  [x] LEDs\n  [x] power switch\n  [n] uart shifting\n[x] buck fb resistors\n[x] more 100nF caps?\n[x] replace those 10ufs\n[x] one (or two) mounting hole pls :pray:\n[x] recheck mux default states\n[x] review all muxes\n[x] review all SY resistors\n[x] caps for VBUS switch\n[x] check all gpio defaults\n[x] unjumper SDIO resistors\n[x] review inductors\n  [x] buck\n  [x] boost\n[x] CPU USB uplink\n[x] expander INT handling\n[x] UART mux\n[x] SDIO routing\n[x] add SDIO resistors\n[x] expansion header\n  [x] expansion header Ilimit\n    [x] vbat\n    [x] 3v\n    [x] 5v\n[x] second expander\n[x] default states for all muxes\n[x] wire USB hub to FFC\n[x] clean GND at the top\n[x] wire usb hub power to usb mux sel\n[x] hardware switches\n  [x] modem\n  [x] USB data\n  [x] WiFi\n[x] BACKLIGHT CURRENT LIMIT\n[x] expander int mux\n[x] screen backlight\n[x] id eeprom\n[x] eeprom on cpu i2c\n[x] neopixels\n[x] tpm pins to gpio12/13\n[x] esp32 usb on qwiic"
 		(exclude_from_sim no)
 		(at 304.8 100.838 0)
 		(effects
@@ -6191,6 +6201,26 @@
 		)
 		(uuid "9773f048-95e5-47b4-96bb-62d9b098d513")
 	)
+	(text "78\n79\n80\n81\n82\n83\n84\n85\n\n86\n87\n88"
+		(exclude_from_sim no)
+		(at 221.742 142.748 0)
+		(effects
+			(font
+				(size 1.6002 1.6002)
+			)
+		)
+		(uuid "a1c95a98-3e45-43b6-b945-70bb6458838e")
+	)
+	(text "77\n76\n75\n74\n73"
+		(exclude_from_sim no)
+		(at 141.478 146.304 0)
+		(effects
+			(font
+				(size 1.6002 1.6002)
+			)
+		)
+		(uuid "bebec023-4035-45ef-b50d-4b05995a8faf")
+	)
 	(text "power for IO expanders, so that\nthey're also powered during CPU off"
 		(exclude_from_sim no)
 		(at 171.704 110.998 0)
@@ -6200,6 +6230,16 @@
 			)
 		)
 		(uuid "de842dfc-b17f-4d67-9e30-2f8fa15d5692")
+	)
+	(text "62\n63\n64\n65\n66\n67\n68\n69\n\n70\n71\n72"
+		(exclude_from_sim no)
+		(at 145.288 137.16 0)
+		(effects
+			(font
+				(size 1.6002 1.6002)
+			)
+		)
+		(uuid "fc9deeca-a35a-4eb6-b708-d2287ae90d7b")
 	)
 	(text "SEL low = 1\nSEL high = 2"
 		(exclude_from_sim no)
