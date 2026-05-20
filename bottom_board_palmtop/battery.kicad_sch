@@ -6317,7 +6317,7 @@
 		)
 		(uuid "48f05765-4aa8-4551-9115-1bd89b44ccdc")
 	)
-	(text "Control, overcurrent & backflow\nprotection for QWIIC"
+	(text "Control, overcurrent & backflow\nprotection for the EC 3.3V"
 		(exclude_from_sim no)
 		(at 38.862 50.8 0)
 		(effects
@@ -15139,7 +15139,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "23K"
+		(property "Value" "22K"
 			(at 200.66 140.97 0)
 			(effects
 				(font
@@ -15175,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C187988"
+		(property "LCSC Part" "C25768"
 			(at 199.39 139.7 0)
 			(effects
 				(font
@@ -16458,7 +16458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "240K"
 			(at 17.78 190.5 0)
 			(effects
 				(font
@@ -16494,7 +16494,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25546"
+		(property "LCSC Part" "C64043"
 			(at 16.51 189.23 0)
 			(effects
 				(font
@@ -17257,7 +17257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "240K"
 			(at 156.21 128.2699 0)
 			(effects
 				(font
@@ -17293,7 +17293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25546"
+		(property "LCSC Part" "C64043"
 			(at 153.67 127 0)
 			(effects
 				(font
@@ -17808,7 +17808,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "33K"
 			(at 139.7 190.5 0)
 			(effects
 				(font
@@ -17844,7 +17844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17621"
+		(property "LCSC Part" "C25779"
 			(at 138.43 189.23 0)
 			(effects
 				(font
@@ -18573,7 +18573,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "23K"
+		(property "Value" "22K"
 			(at 226.822 87.122 90)
 			(effects
 				(font
@@ -18609,7 +18609,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C187988"
+		(property "LCSC Part" "C25768"
 			(at 223.52 88.9 0)
 			(effects
 				(font
@@ -21162,7 +21162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "23K"
+		(property "Value" "22K"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -21198,7 +21198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C187988"
+		(property "LCSC Part" "C25768"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -21541,9 +21541,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a30fb506-d02b-4c97-9562-a2c053fbfe5f")
 		(property "Reference" "SW12"
 			(at 144.272 151.638 0)
@@ -26685,7 +26685,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "240K"
 			(at 139.7 182.88 0)
 			(effects
 				(font
@@ -26721,7 +26721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25546"
+		(property "LCSC Part" "C64043"
 			(at 138.43 181.61 0)
 			(effects
 				(font

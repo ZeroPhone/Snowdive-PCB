@@ -4004,6 +4004,16 @@
 		)
 		(uuid "00523c15-55a4-40c5-932c-c39f5b36362d")
 	)
+	(text "CPU 0x51"
+		(exclude_from_sim no)
+		(at 43.18 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25b450b7-3286-41de-91e6-2863dea22e23")
+	)
 	(text "Temp sensor\nfor power part"
 		(exclude_from_sim no)
 		(at 229.362 27.686 0)
@@ -4059,13 +4069,23 @@
 	)
 	(text "using a cap leg instead"
 		(exclude_from_sim no)
-		(at 34.036 74.168 0)
+		(at 34.29 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "90845e0a-2382-44c0-add3-553c6e00a437")
+	)
+	(text "EC 0x4b"
+		(exclude_from_sim no)
+		(at 224.79 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e6ace2c-fdfe-4369-8351-c2639754c141")
 	)
 	(text "Left vibro"
 		(exclude_from_sim no)
@@ -4090,7 +4110,7 @@
 	)
 	(text "Maybe sorta unless?\ntouchpad \"addon\" pads"
 		(exclude_from_sim no)
-		(at 30.988 63.754 0)
+		(at 33.782 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5785,6 +5805,28 @@
 			)
 		)
 	)
+	(global_label "RTC_BATT"
+		(shape input)
+		(at 38.1 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0d74a74-1f54-4dec-ac68-44ab649152bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.8542 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EC_SCL"
 		(shape input)
 		(at 228.6 41.91 180)
@@ -6722,13 +6764,98 @@
 		)
 	)
 	(symbol
-		(lib_id "sw_spdt_pcm12_sh:SW_SPDT")
-		(at 194.31 26.67 0)
+		(lib_id "Device:D_Schottky_Small")
+		(at 30.48 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "13e345fd-20ed-492d-9ba1-278d5d357b23")
+		(property "Reference" "D23"
+			(at 30.48 155.2702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky_Small"
+			(at 30.48 160.3756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 30.48 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C114023"
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2232909-e20c-4c1c-bac1-e06a2db08239")
+		)
+		(pin "2"
+			(uuid "9f5f9676-a295-41c1-92ac-e61eb26bfdee")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/0c6b5fa6-e988-4584-9433-105aa03f0fd6"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_spdt_pcm12_sh:SW_SPDT")
+		(at 194.31 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "14f61ff2-8dc4-414f-8d33-54c582824e17")
 		(property "Reference" "SW6"
 			(at 194.31 16.51 0)
@@ -8444,6 +8571,71 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/0c6b5fa6-e988-4584-9433-105aa03f0fd6"
 					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 27.94 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5abc172a-d5ea-496a-8932-3c2ad09679ca")
+		(property "Reference" "#PWR0292"
+			(at 31.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 22.352 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8e35ada-4da0-45dd-bf99-6860cda5e259")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/0c6b5fa6-e988-4584-9433-105aa03f0fd6"
+					(reference "#PWR0292")
 					(unit 1)
 				)
 			)
@@ -11795,9 +11987,9 @@
 		(at 185.42 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b697238e-876c-43d1-b559-f844123bb3ad")
 		(property "Reference" "SW11"
 			(at 191.008 88.138 0)
@@ -12755,13 +12947,100 @@
 		)
 	)
 	(symbol
-		(lib_id "sw_spdt_pcm12_sh:SW_SPDT")
-		(at 135.89 26.67 0)
+		(lib_id "Device:R_Small")
+		(at 35.56 157.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "d8279505-2a77-4a01-9cd0-8bc1c743a6ca")
+		(property "Reference" "R93"
+			(at 41.402 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270R"
+			(at 30.988 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25104"
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d21b77ab-72cd-40cf-b224-c26c07d96da7")
+		)
+		(pin "2"
+			(uuid "6cb8b3b6-db90-4b3b-8187-0ce332a36afb")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/0c6b5fa6-e988-4584-9433-105aa03f0fd6"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_spdt_pcm12_sh:SW_SPDT")
+		(at 135.89 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "d8a7cc67-077d-4bea-adaa-19c0cf2774d7")
 		(property "Reference" "SW4"
 			(at 135.89 16.51 0)
@@ -13087,9 +13366,9 @@
 		(at 165.1 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eaf9fd3c-ae97-4512-8b16-a2efe7539a73")
 		(property "Reference" "SW5"
 			(at 165.1 16.51 0)
