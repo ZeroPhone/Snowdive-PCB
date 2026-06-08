@@ -6,13 +6,13 @@
 	(descr "UQFN10 1.4x1.8, 0.4P CASE 523BC ISSUE O")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0.1 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "22d87e80-3af3-4744-9fa0-816d8f9a241a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -53,16 +53,35 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -1.1 -0.8)
-		(end -1.1 -0.7)
+	(fp_line
+		(start -1.4 -0.9)
+		(end -1.1 -0.6)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "8efe7ae6-62fb-4392-b801-c5faa9dca374")
+		(uuid "ef18d189-c916-4ab6-aa4e-d63984dbfdf7")
+	)
+	(fp_line
+		(start -1.1 -0.6)
+		(end -0.8 -0.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61d9830b-ede8-46e9-a687-458fb3ef89ae")
+	)
+	(fp_line
+		(start -0.8 -0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "941e88b9-8bcb-4fcd-b82e-c462a30156d9")
 	)
 	(fp_line
 		(start -1.35 -1.55)
