@@ -530,6 +530,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3164,6 +3271,153 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7947,7 +8201,7 @@
 	)
 	(text "microSD reader!"
 		(exclude_from_sim no)
-		(at 98.806 106.934 0)
+		(at 111.252 105.156 0)
 		(effects
 			(font
 				(size 3 3)
@@ -12681,6 +12935,28 @@
 			)
 		)
 	)
+	(global_label "USB_H2_D-"
+		(shape input)
+		(at 81.28 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a5a512c-117f-49ce-80b4-844e8e71701f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1672 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_H4_D+"
 		(shape input)
 		(at 91.44 78.74 180)
@@ -13297,6 +13573,28 @@
 			)
 		)
 	)
+	(global_label "USB_MUX_A_SEL"
+		(shape input)
+		(at 229.87 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ada8d894-1e72-468f-8e57-a53c13727321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.0346 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RP2040_D+"
 		(shape input)
 		(at 189.23 43.18 180)
@@ -13385,6 +13683,28 @@
 			)
 		)
 	)
+	(global_label "USBC_MUX_MODE"
+		(shape input)
+		(at 139.7 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0f3136a-5022-4919-aca9-26dec9201019")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8927 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_H1_D+"
 		(shape input)
 		(at 212.09 78.74 0)
@@ -13403,6 +13723,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_H2_D+"
+		(shape input)
+		(at 81.28 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c340b88f-c229-4e2a-a547-a717ee76b7c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1672 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14160,6 +14502,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7e82fd7-adef-4625-a2ec-0fa408baa303")
 		)
@@ -14246,6 +14597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 224.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a99f2c2-eb76-4b81-a49b-9a23b1bf5848")
 		)
@@ -14323,6 +14683,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 262.89 55.88 0)
 			(effects
 				(font
@@ -14632,6 +15001,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d63c6d28-48b4-404b-9e7a-9ac4f58fc99c")
 		)
@@ -14743,6 +15121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c596eef3-5b17-4481-b373-9f94da65f5b9")
 		)
@@ -14753,6 +15140,71 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3f7cb0-133d-4823-9939-93eabad6244d")
+		(property "Reference" "#PWR0375"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28dfa41e-2d53-4e40-9a65-43e96868763a")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "#PWR0375")
 					(unit 1)
 				)
 			)
@@ -14821,6 +15273,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -14973,6 +15434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 24.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A5"
 			(uuid "9a421b1f-e0d6-400d-a91c-1212bff2801a")
 		)
@@ -15091,6 +15561,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 87.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 87.63 34.29 0)
 			(effects
 				(font
@@ -15514,6 +15993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c64553c-9db6-4987-ad55-e87507c061af")
 		)
@@ -15593,6 +16081,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 279.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 279.4 60.96 0)
 			(effects
 				(font
@@ -15748,6 +16245,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 129.54 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bcee1b0-f194-4810-accc-73f231bc4289")
+		(property "Reference" "#PWR0361"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.206 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3124bda-e9c2-4f79-ae77-da1f84b13869")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "#PWR0361")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 90.17 190.5 270)
 		(unit 1)
@@ -15810,6 +16372,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 90.17 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 90.17 190.5 90)
 			(effects
 				(font
@@ -15905,6 +16476,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fb8a525-2b1e-439e-860a-502f84c7d9d3")
 		)
@@ -15983,6 +16563,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 172.72 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 172.72 133.35 90)
 			(effects
 				(font
@@ -16215,6 +16804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30d14347-b9ab-41bb-a34d-caaff4f8a7e1")
 		)
@@ -16317,6 +16915,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 185.42 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 185.42 27.94 90)
 			(effects
 				(font
@@ -16461,6 +17068,15 @@
 			)
 		)
 		(property "LCSC Part" "C165948"
+			(at 142.24 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 142.24 24.13 90)
 			(effects
 				(font
@@ -16673,6 +17289,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f837a9ae-f2bf-47d5-930b-3ce8a602edec")
 		)
@@ -16759,6 +17384,15 @@
 			)
 		)
 		(property "Description" "Programmable USB Type-C Controller w/PD, I2C address 0x23, WQFN-14"
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 57.15 34.29 0)
 			(effects
 				(font
@@ -16876,7 +17510,7 @@
 			)
 		)
 		(property "LCSC Part" "C83571"
-			(at 94.996 155.956 0)
+			(at 92.71 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,6 +17518,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -16983,6 +17626,15 @@
 		)
 		(property "Alternatives" ""
 			(at 20.32 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 20.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17603,6 +18255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d762a21-641d-4c9a-b866-464272394904")
 		)
@@ -17887,6 +18548,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 78.74 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1e6266c-8ecc-43b2-90a0-22c7f0c6718b")
 		)
@@ -17968,6 +18638,88 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "#PWR0332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "39e46b9c-c6ba-4282-95bc-cedca02344c6")
+		(property "Reference" "TP47"
+			(at 82.55 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S_D+"
+			(at 88.392 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bottom_board_palmtop:TestPoint_Pad_0.6x0.6mm"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 81.28 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 81.28 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ee9a0c-58c1-4c37-814b-e56a3bc130bb")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -18305,6 +19057,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e09dee1e-585c-4ecd-baf1-8534f0cb1639")
 		)
@@ -18447,6 +19208,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 60.96 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 60.96 182.88 90)
 			(effects
 				(font
@@ -18598,6 +19368,72 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 87.63 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4668ace5-8e19-4611-8492-8ac99cad437d")
+		(property "Reference" "#PWR0106"
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_FUSB"
+			(at 87.122 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f571918-c9c1-4114-b118-de1c6b057f97")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -18795,6 +19631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 267.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A5"
 			(uuid "cac6bcf2-5868-4a92-9f83-40c917261ed0")
 		)
@@ -18980,6 +19825,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "230ee675-787d-4204-a28f-9f9a553c7918")
 		)
@@ -19082,6 +19936,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 77.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -19374,6 +20237,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 60.96 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1e34884-f204-4baa-89a1-e64a4c4beee3")
 		)
@@ -19519,6 +20391,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "8848f4be-9910-4958-a3c8-c457cb41cb66")
 		)
@@ -19630,6 +20511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f988cc2d-5259-481f-a0f0-fbce0f6be212")
 		)
@@ -19640,6 +20530,88 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e900e27-0c35-4dc7-819e-b16b085c8def")
+		(property "Reference" "TP48"
+			(at 76.2 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.042 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bottom_board_palmtop:TestPoint_Pad_0.6x0.6mm"
+			(at 74.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 74.93 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 74.93 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d21326c2-0d0f-49ff-991a-eb82ebdf732c")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -19708,6 +20680,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -19847,6 +20828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23994732-a55a-4856-bf19-7db4e1dd9f93")
 		)
@@ -19925,6 +20915,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -20070,6 +21069,15 @@
 		)
 		(property "LCSC Part" "C2931342"
 			(at 255.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 255.27 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20324,6 +21332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 141.986 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af98633a-9bf4-4c9b-ab09-d1133aa8e69a")
 		)
@@ -20540,6 +21557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 259.08 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf9512d3-e1ca-434b-aec5-043b525e1e28")
 		)
@@ -20685,6 +21711,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 21.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 21.59 80.01 0)
 			(effects
 				(font
@@ -21105,6 +22140,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f4bc63e-f6d0-4362-ab66-cfd3d32f54d4")
 		)
@@ -21256,6 +22300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db081523-1cfd-4981-88a2-aa7f41779354")
 		)
@@ -21362,6 +22415,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 273.05 62.23 0)
 			(effects
 				(font
@@ -21522,6 +22584,15 @@
 		)
 		(property "Alternatives" "FSUSB42UMX works too"
 			(at 184.15 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 195.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21837,6 +22908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 177.8 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edacf50b-cd6a-4056-8436-81baa4c65933")
 		)
@@ -21913,6 +22993,91 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 224.79 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8144c0f6-01f4-4196-b933-357f7b02116a")
+		(property "Reference" "JP3"
+			(at 224.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADDON_ONLY"
+			(at 225.044 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bottom_board_palmtop:SolderJumper-2_smol_Open"
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "741ed52a-6ccf-41b7-8683-1139fb0a511d")
+		)
+		(pin "2"
+			(uuid "ed56dd19-17de-4ade-b138-19db256d5049")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -22256,6 +23421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 123.19 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a438ef81-7867-4e7a-ab2e-f494610975b1")
 		)
@@ -22334,6 +23508,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -22489,6 +23672,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ec8fb3-1348-45bb-92b7-55caf4692d6c")
+		(property "Reference" "TP46"
+			(at 82.55 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S_D-"
+			(at 88.392 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bottom_board_palmtop:TestPoint_Pad_0.6x0.6mm"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 81.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 81.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8db79fc-4bcf-4f09-aa18-321fc7349eaf")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 281.94 139.7 0)
 		(unit 1)
@@ -22551,6 +23816,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 281.94 139.7 0)
 			(effects
 				(font
@@ -22712,6 +23986,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 182.88 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3216bb0-a5b4-4917-8ff4-42d24dd09397")
 		)
@@ -22792,6 +24075,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 78.74 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 78.74 125.73 90)
 			(effects
 				(font
@@ -23008,6 +24300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "13b01ef0-7886-4aed-bb95-392252aeb58d")
 		)
@@ -23117,6 +24418,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 19.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 19.05 163.83 0)
 			(effects
 				(font
@@ -23259,6 +24569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 74.93 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67830123-8bcd-45a4-8807-64c966e60d87")
 		)
@@ -23293,8 +24612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 53.594 20.066 0)
+		(property "Value" "+3V3_FUSB"
+			(at 50.292 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23360,7 +24679,7 @@
 			)
 		)
 		(property "Value" "+3V3SD"
-			(at 96.266 137.16 0)
+			(at 96.266 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23543,6 +24862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac4bc0fc-96b8-4cb9-b831-0b9c95fbb2d4")
 		)
@@ -23553,6 +24881,71 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa7ff672-f183-418f-a017-81085c27394d")
+		(property "Reference" "#PWR0360"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.884 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0908cb21-a63e-4d1a-826c-b4bc0d582acb")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "#PWR0360")
 					(unit 1)
 				)
 			)
@@ -23619,6 +25012,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 38.1 74.93 0)
 			(effects
 				(font
@@ -24059,6 +25461,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 98.552 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ab9c906-d409-413f-8982-1505083c4cf6")
 		)
@@ -24317,6 +25728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ab34eeb-1b8b-4791-82d5-541bba32d559")
 		)
@@ -24394,6 +25814,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 234.95 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 234.95 152.4 90)
 			(effects
 				(font
@@ -24545,6 +25974,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -24778,6 +26216,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 134.62 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d1a530f8-2221-4b9b-9b8f-82183cec1372")
+		(property "Reference" "JP4"
+			(at 134.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NO_KB_MODE"
+			(at 134.874 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bottom_board_palmtop:SolderJumper-2_smol_Open"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "603337d8-1df8-4e9b-9faf-0ff31a63e7f4")
+		)
+		(pin "2"
+			(uuid "3146dcdb-19fa-4240-a77f-a60632649fc1")
+		)
+		(instances
+			(project "bottom_board_palmtop"
+				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 231.14 39.37 0)
 		(unit 1)
@@ -24981,6 +26504,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6584d8c-d2a8-48cf-840e-713351c35367")
 		)
@@ -25140,6 +26672,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eabe4c49-397f-4c43-92c9-7adb6985a9a3")
 		)
@@ -25174,71 +26715,6 @@
 			(project "bottom_board_palmtop"
 				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
 					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d859320d-5bf7-4e20-a12b-9598206e31a6")
-		(property "Reference" "#PWR0106"
-			(at 87.63 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 87.122 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff47216d-b0c2-49bf-83be-474fd9d9082a")
-		)
-		(instances
-			(project "bottom_board_palmtop"
-				(path "/8978b49f-2e56-47e1-8d7c-c31ed8b7a8ae/3029d370-8f7a-4b4c-90fd-29771f720246"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -25643,6 +27119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ef40528-f599-4eaf-874d-240affe8a812")
 		)
@@ -25714,6 +27199,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 278.13 81.28 0)
 			(effects
 				(font
@@ -25825,6 +27319,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 234.95 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 234.95 144.78 0)
 			(effects
 				(font
@@ -26314,6 +27817,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 136.906 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfb79774-0449-4c13-8a57-d21cda5f999b")
 		)
@@ -26468,6 +27980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 235.585 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05b64428-1280-4f90-95d1-54b3bfa28894")
 		)
@@ -26546,6 +28067,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 172.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 172.72 181.61 0)
 			(effects
 				(font
@@ -26770,6 +28300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d32bc32e-4c49-4928-825e-7138c07545a9")
 		)
@@ -26846,6 +28385,15 @@
 			)
 		)
 		(property "Alternatives" ""
+			(at 261.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 261.62 27.94 0)
 			(effects
 				(font

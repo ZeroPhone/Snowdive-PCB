@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 1.2
+          "height": 2.2,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|92960001|69560000|5c82eb58-a73e-4368-a8dc-a3da16c65b9e|136d15b4-69cd-4ed7-8fd7-4317acf37ebf",
-          ""
-        ],
-        [
-          "lib_footprint_issues|138499996|65775000|e7b71b8b-3163-41e6-bdb7-6b5eefb6b5bd|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|62190000|108859999|e1cf509b-312a-483f-b760-6d6a540c4f9a|6a1154b1-69ab-41eb-9954-855b484faac5",
           ""
         ],
         [
@@ -109,10 +105,6 @@
         ],
         [
           "via_dangling|121459998|79835001|6ec4be6f-3376-488a-b895-f9aed4bcd716|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "via_dangling|123499997|79884998|2db11523-551f-4cb9-a754-55d1728fa93a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -164,7 +156,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -737,6 +729,18 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],

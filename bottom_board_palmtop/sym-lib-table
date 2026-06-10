@@ -7,4 +7,5 @@
   (lib (name "ap62600")(type "KiCad")(uri "${KIPRJMOD}/ap62600.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2121")(type "KiCad")(uri "${KIPRJMOD}/TPS2121.kicad_sym")(options "")(descr ""))
   (lib (name "IS31FL3193")(type "KiCad")(uri "${KIPRJMOD}/IS31FL3193.kicad_sym")(options "")(descr ""))
+  (lib (name "scrollwheel")(type "KiCad")(uri "${KIPRJMOD}/scrollwheel.kicad_sym")(options "")(descr ""))
 )
