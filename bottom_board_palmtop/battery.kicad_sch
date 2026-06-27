@@ -7665,16 +7665,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 36.83) (xy 83.82 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458b480f-58a3-44aa-8bcc-79a091ff9371")
-	)
-	(wire
-		(pts
 			(xy 109.22 27.94) (xy 110.49 27.94)
 		)
 		(stroke
@@ -7832,16 +7822,6 @@
 			(type default)
 		)
 		(uuid "53531f50-7952-44de-aa49-f975c62fef39")
-	)
-	(wire
-		(pts
-			(xy 81.28 44.45) (xy 81.28 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f44cac-dad9-4e2a-9e49-91a64746d543")
 	)
 	(wire
 		(pts
@@ -13887,7 +13867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 45.72 0)
+		(at 81.28 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13896,7 +13876,7 @@
 		(dnp no)
 		(uuid "2351b763-d609-4bd1-b32f-7c8e9d75d091")
 		(property "Reference" "#PWR0170"
-			(at 81.28 52.07 0)
+			(at 81.28 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13905,7 +13885,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 49.276 0)
+			(at 81.28 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13913,7 +13893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 45.72 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13922,7 +13902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 45.72 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13931,7 +13911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 45.72 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21437,8 +21417,8 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 83.82 34.29 270)
-		(mirror x)
+		(at 81.28 36.83 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21446,7 +21426,7 @@
 		(dnp no)
 		(uuid "8b1511c9-e281-414e-bc20-d12c5fde6d17")
 		(property "Reference" "#PWR0171"
-			(at 80.01 34.29 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21455,7 +21435,7 @@
 			)
 		)
 		(property "Value" "5V_USBC"
-			(at 85.598 32.258 90)
+			(at 81.28 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21463,7 +21443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 34.29 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21472,7 +21452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 34.29 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21481,7 +21461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 34.29 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

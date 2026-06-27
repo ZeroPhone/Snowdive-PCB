@@ -7239,7 +7239,7 @@
 		)
 		(uuid "c2864c2b-434c-4660-a33a-31ff649236e3")
 	)
-	(text "TODO\n\n[n] better access to testpoints on usbc buck?\n[n] figure out how to switch VSYS on the FFC =(\n[n] global LED disable?\n[n] push-pull for buzzer, and add ESD diodes?\n[n] lower the qwiic output current limits??\n[n] buzzer resistor\n\n[x] check all muxes\n[x] serial number on silk, Blepis-style\n[x] find the right package for currently-miniMELF diode\n[x] fusb302 overcurrent protection (100mA)\n[x] move internal ec i2c away from the batt area/depopulate? thickness =(\n[x] solder-on mounting posts for bottom cover screws\n[x] compensate for open drain-ness of the pwm driver output (?)\n[x] decide ADDR for the PWM chip \n[x] larger testpoints for CPU SDA and two free gpios for expansions\n	[n] oled header?\n[x] buzzer to 3.3v default with switching\n[x] jumper/switch to disable external keyboard mode!\n[x] jumper to add EC USB\n[x] two buffers for i2c_pu_en? or diodes\n[x] VBUS_DET caps and reconsider the resistors too\n[x] microSD reader (where? :( ) (there, it turns out)\n[x] standalone keyboard/hub mode\n[x] usb mux en gpio can also control en but can't override switch\n[x] join the USB hub mux control signals\n[x] FIX THE DIODE ON INPUT OF 3V3 REG\n	[x] check if other diodes are used like that\n[x] USB hub\n[x] more mounting holes!!!\n[x] add a mux that switches usb hub to center port, for standalone mode\n[x] make touchpad addon pads larger (and enlarge outline for the touchpad conn)\n[x] add QWIICs with USB and I2C\n[x] 3V3_EC default off?\n[x] round the corners\n[x] refactor the pointer addon footprint\n[x] more powerful 3.3V reg\n[x] consider IOMUX-driven default GPIOs on top board\n[x] move rp2040 and associates all the way down\n[x] 2k pulldown on io_mux_sel\n[x] add diode in series with bootsel so that the flash CS doesn't constantly trigger the right expander INT\n[x] fix IO expander INT diodes (need a flip)\n[x] fix RP2040 USB mux (U32) default state for flashing\n[x] fix the diode placement for the buzzer\n[x] RTC_INT jumpered away... ugh\n[x] VBUS_DET to ADC channel\n[x] figure out how to get rid of screen_bl on the gpio header\n\n[?] series resistor for vibro driver\n[x] wire up DC-DC two inputs to jompers SOB (knda sorta done)\n[x] check fp for battery input connectors\n[x] vsys to power switch and add a button option\n[x] mounting holes\n[x] powered path\n[x] recheck pullups!!!\n[x] i2c pullups!\n[x] eeprom\n[x] nice batt charger\n[x] pullups on io exp gpios lol\n  [x] pullups on buttons\n  [x] pullups on fusb int\n  [x] pull on io mux sel?? idk lol\n  [x] pullup on rtc_int\n[x] 5v boost\n[x] 3.3v down reg of some kind\n[x] tiny testpoints on FFC pins\n[x] USB muxes to allow keyboard mode during boot\n[x] check rp2040 pinout with blepis rp2040 pinout (i2c, pwm, and such)\n[x/n] LEDs when the USB-C port mode is invalid???\n\n"
+	(text "TODO\n\n[ ] scrollwheel passives\n[ ] a single button at the removable slot for the touchpad/trackpoint\n\n[n] better access to testpoints on usbc buck?\n[n] figure out how to switch VSYS on the FFC =(\n[n] global LED disable?\n[n] push-pull for buzzer, and add ESD diodes?\n[n] lower the qwiic output current limits??\n[n] buzzer resistor\n\n[x] check all muxes\n[x] serial number on silk, Blepis-style\n[x] find the right package for currently-miniMELF diode\n[x] fusb302 overcurrent protection (100mA)\n[x] move internal ec i2c away from the batt area/depopulate? thickness =(\n[x] solder-on mounting posts for bottom cover screws\n[x] compensate for open drain-ness of the pwm driver output (?)\n[x] decide ADDR for the PWM chip \n[x] larger testpoints for CPU SDA and two free gpios for expansions\n	[n] oled header?\n[x] buzzer to 3.3v default with switching\n[x] jumper/switch to disable external keyboard mode!\n[x] jumper to add EC USB\n[x] two buffers for i2c_pu_en? or diodes\n[x] VBUS_DET caps and reconsider the resistors too\n[x] microSD reader (where? :( ) (there, it turns out)\n[x] standalone keyboard/hub mode\n[x] usb mux en gpio can also control en but can't override switch\n[x] join the USB hub mux control signals\n[x] FIX THE DIODE ON INPUT OF 3V3 REG\n	[x] check if other diodes are used like that\n[x] USB hub\n[x] more mounting holes!!!\n[x] add a mux that switches usb hub to center port, for standalone mode\n[x] make touchpad addon pads larger (and enlarge outline for the touchpad conn)\n[x] add QWIICs with USB and I2C\n[x] 3V3_EC default off?\n[x] round the corners\n[x] refactor the pointer addon footprint\n[x] more powerful 3.3V reg\n[x] consider IOMUX-driven default GPIOs on top board\n[x] move rp2040 and associates all the way down\n[x] 2k pulldown on io_mux_sel\n[x] add diode in series with bootsel so that the flash CS doesn't constantly trigger the right expander INT\n[x] fix IO expander INT diodes (need a flip)\n[x] fix RP2040 USB mux (U32) default state for flashing\n[x] fix the diode placement for the buzzer\n[x] RTC_INT jumpered away... ugh\n[x] VBUS_DET to ADC channel\n[x] figure out how to get rid of screen_bl on the gpio header\n\n[?] series resistor for vibro driver\n[x] wire up DC-DC two inputs to jompers SOB (knda sorta done)\n[x] check fp for battery input connectors\n[x] vsys to power switch and add a button option\n[x] mounting holes\n[x] powered path\n[x] recheck pullups!!!\n[x] i2c pullups!\n[x] eeprom\n[x] nice batt charger\n[x] pullups on io exp gpios lol\n  [x] pullups on buttons\n  [x] pullups on fusb int\n  [x] pull on io mux sel?? idk lol\n  [x] pullup on rtc_int\n[x] 5v boost\n[x] 3.3v down reg of some kind\n[x] tiny testpoints on FFC pins\n[x] USB muxes to allow keyboard mode during boot\n[x] check rp2040 pinout with blepis rp2040 pinout (i2c, pwm, and such)\n[x/n] LEDs when the USB-C port mode is invalid???\n\n"
 		(exclude_from_sim no)
 		(at 299.974 93.726 0)
 		(effects
@@ -8459,7 +8459,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 44.45) (xy 179.07 44.45)
+			(xy 181.61 41.91) (xy 179.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9139,7 +9139,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 41.91) (xy 179.07 41.91)
+			(xy 184.15 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9629,7 +9629,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 181.61 44.45)
+			(xy 181.61 40.64) (xy 181.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9899,7 +9899,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 40.64) (xy 184.15 41.91)
+			(xy 184.15 40.64) (xy 184.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12361,7 +12361,7 @@
 	)
 	(global_label "CPU_SCL"
 		(shape input)
-		(at 179.07 44.45 180)
+		(at 179.07 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12371,7 +12371,7 @@
 		)
 		(uuid "b5eb9a50-84a3-4dc0-8c88-9ecc1a6cca20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7391 44.45 0)
+			(at 167.7391 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12449,7 @@
 	)
 	(global_label "CPU_SDA"
 		(shape input)
-		(at 179.07 41.91 180)
+		(at 179.07 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12459,7 +12459,7 @@
 		)
 		(uuid "bd0afbd8-d5e3-4342-9037-a1ddec2f9e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6786 41.91 0)
+			(at 167.6786 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
