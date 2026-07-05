@@ -5388,6 +5388,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 149.86) (xy 146.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ac2321-1ecc-4954-9b65-99ea47a6efba")
+	)
+	(wire
+		(pts
 			(xy 118.11 33.02) (xy 116.84 33.02)
 		)
 		(stroke
@@ -5535,6 +5545,16 @@
 			(type default)
 		)
 		(uuid "1232941b-7d05-48b7-b26e-fb0543bd2e92")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 146.05 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125cf490-8789-4f07-afed-3bcb76d2fa7a")
 	)
 	(wire
 		(pts
@@ -6208,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 162.56) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ecfd25-4356-44d9-9a32-f85686a3a986")
+	)
+	(wire
+		(pts
 			(xy 49.53 135.89) (xy 49.53 129.54)
 		)
 		(stroke
@@ -6245,6 +6275,16 @@
 			(type default)
 		)
 		(uuid "67a875b8-d491-47c3-bdf6-3ac0b7e81196")
+	)
+	(wire
+		(pts
+			(xy 157.48 157.48) (xy 146.05 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d0b5ef-cf4b-4d11-8160-4f005208da96")
 	)
 	(wire
 		(pts
@@ -6508,6 +6548,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 152.4) (xy 146.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8391729d-c657-4946-aade-8ee629cbaf60")
+	)
+	(wire
+		(pts
 			(xy 49.53 129.54) (xy 48.26 129.54)
 		)
 		(stroke
@@ -6525,6 +6575,16 @@
 			(type default)
 		)
 		(uuid "84928676-7af1-4b38-9f57-55cd45f78dcc")
+	)
+	(wire
+		(pts
+			(xy 157.48 160.02) (xy 146.05 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e201e-efad-4beb-a5b4-98b107d0d94f")
 	)
 	(wire
 		(pts
@@ -7698,6 +7758,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 154.94) (xy 146.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbb34b0-7732-465b-878d-a7541f638053")
+	)
+	(wire
+		(pts
 			(xy 161.29 50.8) (xy 163.83 50.8)
 		)
 		(stroke
@@ -8514,6 +8584,30 @@
 		)
 		(uuid "01b753f9-9f3f-421c-81fe-45eeac9e4d9f")
 	)
+	(label "UART1_RXD"
+		(at 157.48 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "038213f9-02e5-475a-bc12-2e855960e038")
+	)
+	(label "UART1_DTR"
+		(at 157.48 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "17b6e6b2-4f31-4ec8-8ca1-8a2aaf99c365")
+	)
 	(label "SIM1_DET"
 		(at 191.77 76.2 0)
 		(effects
@@ -8538,6 +8632,18 @@
 		)
 		(uuid "21215f5a-1128-4d86-9d2e-2c031a4dc8c4")
 	)
+	(label "UART1_RI"
+		(at 157.48 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dceb2c8-318e-424d-85b8-4018b74aec4e")
+	)
 	(label "MODEM_SDA"
 		(at 275.59 101.6 180)
 		(effects
@@ -8549,6 +8655,18 @@
 			(justify right bottom)
 		)
 		(uuid "33e9ec54-edfc-497e-8be6-214ba57aee16")
+	)
+	(label "UART1_CTS"
+		(at 157.48 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "37ef7b71-8538-46b6-80c3-4ddfb8cbbd04")
 	)
 	(label "SIM1_CLK"
 		(at 39.37 33.02 0)
@@ -8622,6 +8740,18 @@
 		)
 		(uuid "57f8a388-22bb-437e-a85b-491aaedfadca")
 	)
+	(label "UART1_DCD"
+		(at 157.48 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "58cdc287-ec02-4263-9ffb-95a90f110ea4")
+	)
 	(label "MODEM_BOOTCFG"
 		(at 280.67 55.88 180)
 		(effects
@@ -8670,6 +8800,18 @@
 		)
 		(uuid "6cb2a5f6-4d18-4c52-ae54-06bbb763813e")
 	)
+	(label "UART1_TXD"
+		(at 157.48 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e968e73-ba66-4bdb-a26d-10d8618848c1")
+	)
 	(label "STATUS"
 		(at 212.09 151.13 0)
 		(effects
@@ -8717,6 +8859,18 @@
 			(justify left bottom)
 		)
 		(uuid "7b0295fc-8510-479b-b91d-175b3e072358")
+	)
+	(label "UART1_RTS"
+		(at 157.48 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e8c913c-7f62-441f-8b47-e8fb87b39b30")
 	)
 	(label "MODEM_RST"
 		(at 107.95 125.73 0)
@@ -9721,6 +9875,70 @@
 			(project "top_board_pizero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21f07c1b-5f04-4eb5-94a5-c01ebb344c12")
+		(property "Reference" "TP12"
+			(at 144.78 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_TX"
+			(at 138.43 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db983a95-eaa8-49e7-86fe-dd3d58cc898e")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10847,6 +11065,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a2350c9-68f1-4db1-883f-258694d79e8c")
+		(property "Reference" "TP18"
+			(at 144.78 160.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_RI"
+			(at 138.43 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fed39b-8566-4821-885a-b8e0b4fc32a2")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 64.77 166.37 0)
 		(unit 1)
@@ -11752,6 +12034,134 @@
 			(project "top_board_pizero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ca5a894-8fb3-40f0-b2fb-452edda1aee5")
+		(property "Reference" "TP17"
+			(at 144.78 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_DT"
+			(at 138.43 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f4e7b9b-0212-40f6-9578-cdd9c5c4cfa8")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d6223f7-ce76-4c22-8a0c-2572000d9115")
+		(property "Reference" "TP15"
+			(at 144.78 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_CT"
+			(at 138.43 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03404302-d8bf-4ab7-9373-658de9e83813")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -14086,6 +14496,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2923ee-7109-4502-a939-7d15f5f0fc49")
+		(property "Reference" "TP14"
+			(at 144.78 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_RT"
+			(at 138.43 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e978981-a406-4e20-8a24-66a0b399f11c")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 67.31 173.99 0)
 		(mirror y)
@@ -15770,6 +16244,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1ef3453-84b3-4ab7-83fe-4f892e6806b3")
+		(property "Reference" "TP16"
+			(at 144.78 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_DC"
+			(at 138.43 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082fa53a-bb91-4e1d-a610-7fb703e0a2da")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 265.43 88.9 90)
@@ -16360,6 +16898,70 @@
 			(project "top_board_pizero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eddbc459-fdbb-4a50-848b-b3916dddc1a9")
+		(property "Reference" "TP13"
+			(at 144.78 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1_RX"
+			(at 138.43 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51631c87-aaad-429a-bd48-019b4f9952da")
+		)
+		(instances
+			(project "top_board_pizero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
