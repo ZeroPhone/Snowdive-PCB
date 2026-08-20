@@ -70,7 +70,7 @@
 	(attr exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 	(fp_poly
 		(pts
-			(xy -0.15 -0.75) (xy 0.15 -0.750001) (xy 0.15 0.75) (xy -0.15 0.750001)
+			(xy -0.15 -0.45) (xy 0.15 -0.450001) (xy 0.15 0.45) (xy -0.15 0.450001)
 		)
 		(stroke
 			(width 0)

@@ -45350,7 +45350,7 @@
 		(attr exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 		(fp_poly
 			(pts
-				(xy -0.15 0.75) (xy 0.15 0.750001) (xy 0.15 -0.75) (xy -0.15 -0.750001)
+				(xy -0.15 0.45) (xy 0.15 0.450001) (xy 0.15 -0.45) (xy -0.15 -0.450001)
 			)
 			(stroke
 				(width 0)
@@ -45358,7 +45358,7 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(uuid "a07a930d-4e0c-44c6-ba94-322f390023e5")
+			(uuid "034c4fe0-45e4-40f5-beaf-e67266dafa34")
 		)
 		(fp_line
 			(start -1.049999 -0.300002)
@@ -45368,7 +45368,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9222450c-7f74-4922-a70f-9c665791fcd3")
+			(uuid "49c8b2f5-472d-409c-a845-0783edfc5b49")
 		)
 		(fp_line
 			(start -0.7 0.649998)
@@ -45378,7 +45378,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "353f909d-87c3-4d00-b44b-e9e85f638a6c")
+			(uuid "58b583f0-791c-4bab-ad8e-b4c6ebf2dec5")
 		)
 		(fp_line
 			(start 0.7 -0.649998)
@@ -45388,7 +45388,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8c7566ab-f5d5-4639-940b-50200bd309d8")
+			(uuid "cd9cb144-450b-4a10-9023-3468bf46ecc5")
 		)
 		(fp_line
 			(start 1.049999 0.300002)
@@ -45398,7 +45398,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4eef14c2-df86-4977-b364-b85d8b2d5bae")
+			(uuid "14f73ab0-f481-475f-8666-b66e67961b01")
 		)
 		(fp_arc
 			(start -1.020156 -0.300001)
@@ -45409,7 +45409,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "013ab0aa-c274-42d7-a4d7-0e350d7f32b2")
+			(uuid "bbb0487b-e2db-4aab-91e0-7aaa61c4f9d2")
 		)
 		(fp_arc
 			(start -0.699999 0.620156)
@@ -45420,7 +45420,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "358f2a48-27fa-40a9-ba66-2462715c343d")
+			(uuid "2db60dd7-280e-4e84-a4af-c8c0836febbf")
 		)
 		(fp_arc
 			(start 0.699999 -0.620156)
@@ -45431,7 +45431,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "97474142-c380-4cfd-935b-17b61658b16f")
+			(uuid "b59ee73b-778a-45f1-9378-3a6dfc320d49")
 		)
 		(fp_arc
 			(start 1.035412 0.3)
@@ -45442,7 +45442,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e1311d20-a503-4d8c-a9f4-2f538fd9f809")
+			(uuid "2ba201fa-99a6-4cee-91ce-c6901f70dab1")
 		)
 		(fp_line
 			(start -1.15 0.75)
@@ -45452,7 +45452,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "697758a5-7c7c-4029-bbb3-a2d4ec65afe2")
+			(uuid "5609dedd-26fc-480d-acdb-e6028d4f1168")
 		)
 		(fp_line
 			(start -1.15 0.75)
@@ -45462,7 +45462,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4c103022-66c6-4910-a09b-bd1151fff3c1")
+			(uuid "55a4ae54-f026-4bb8-9492-f241a14ea668")
 		)
 		(fp_line
 			(start 1.15 -0.75)
@@ -45472,7 +45472,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "502c92de-f46f-4de0-8cda-7808e0df00dc")
+			(uuid "f9cbf55e-8220-4bf3-a634-c0e2c160fb52")
 		)
 		(fp_line
 			(start 1.15 -0.75)
@@ -45482,7 +45482,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "305be069-4614-49af-91b7-53ab7c88dcd1")
+			(uuid "d61edff1-e444-4a09-946b-04cc021f8154")
 		)
 		(pad "1" smd rect
 			(at -0.349998 -0.000001)
@@ -65218,7 +65218,7 @@
 		(attr exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 		(fp_poly
 			(pts
-				(xy -0.15 0.75) (xy 0.15 0.750001) (xy 0.15 -0.75) (xy -0.15 -0.750001)
+				(xy -0.15 0.45) (xy 0.15 0.450001) (xy 0.15 -0.45) (xy -0.15 -0.450001)
 			)
 			(stroke
 				(width 0)
@@ -65226,7 +65226,7 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(uuid "aa784560-942b-43a9-8fa4-ac20e728743f")
+			(uuid "90ae996f-a09b-4317-af56-e031dacda66c")
 		)
 		(fp_line
 			(start -1.049999 -0.300002)
@@ -65236,7 +65236,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a69806e1-89ae-4701-97dc-fbd1e4e2821e")
+			(uuid "6dc1992a-8fa9-45ba-a93c-c6b4abc9d92b")
 		)
 		(fp_line
 			(start -0.7 0.649998)
@@ -65246,7 +65246,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "36885840-cd66-48c9-87a3-7e7c2ffe2b11")
+			(uuid "665d0e5c-949e-4a2f-b5ac-527bf9071e6c")
 		)
 		(fp_line
 			(start 0.7 -0.649998)
@@ -65256,7 +65256,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a19b5638-65d7-4b55-bc49-b3ad9db1f5ce")
+			(uuid "1a9e02a3-994f-47b0-8d26-48abb681ee53")
 		)
 		(fp_line
 			(start 1.049999 0.300002)
@@ -65266,7 +65266,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "45a31129-c9f3-4646-9bf6-3622153b8dc5")
+			(uuid "8e30cf33-d5a2-4fc4-b3e4-4c911e0a956c")
 		)
 		(fp_arc
 			(start -1.020156 -0.300001)
@@ -65277,7 +65277,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c69f7fcc-5d6f-4dff-86fc-20930ae1341b")
+			(uuid "68117174-7cc1-4c40-9c80-2f8932dd5d0f")
 		)
 		(fp_arc
 			(start -0.699999 0.620156)
@@ -65288,7 +65288,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f136f723-9e56-4e3f-8134-0a5ef57000d6")
+			(uuid "8c561289-132a-4d82-b3f4-e8e1c37f1d48")
 		)
 		(fp_arc
 			(start 0.699999 -0.620156)
@@ -65299,7 +65299,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f7338516-8e65-43b6-89aa-0218361d0376")
+			(uuid "ec5d1980-d5e6-4282-8e02-b969d4dcdf3f")
 		)
 		(fp_arc
 			(start 1.035412 0.3)
@@ -65310,7 +65310,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e2cb504a-3682-4ee3-ab84-e89d6fa6f0c7")
+			(uuid "aab38b70-762c-4dbc-b803-e1614ab34266")
 		)
 		(fp_line
 			(start -1.15 0.75)
@@ -65320,7 +65320,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "62feb41a-2e15-4d98-ac61-39e5e9e4fb14")
+			(uuid "ac465d1f-e3c0-466c-84ab-8cddb99332f6")
 		)
 		(fp_line
 			(start -1.15 0.75)
@@ -65330,7 +65330,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f7484041-e463-49b5-8a32-b04d79a7e757")
+			(uuid "9f254974-361a-4eb8-a8e1-2f3b078069c4")
 		)
 		(fp_line
 			(start 1.15 -0.75)
@@ -65340,7 +65340,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "65b673ca-d711-4b29-878f-a5b116294f92")
+			(uuid "9a5f3915-6602-487d-8d0b-87f6b58a1c81")
 		)
 		(fp_line
 			(start 1.15 -0.75)
@@ -65350,7 +65350,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d0c9a2d5-79ff-41ca-ac55-930a240c9630")
+			(uuid "13e7f3ec-001c-4fee-a7c1-7d955ada5a05")
 		)
 		(pad "1" smd rect
 			(at -0.349998 -0.000001)
@@ -216641,11 +216641,11 @@
 				(xy 113.428908 77.232911) (xy 113.430955 77.24055) (xy 113.430955 77.250292) (xy 113.423562 77.268138)
 				(xy 113.421043 77.287288) (xy 113.409281 77.302615) (xy 113.409281 77.302618) (xy 113.409279 77.302618)
 				(xy 113.350744 77.361154) (xy 113.35074 77.361159) (xy 113.318694 77.438527) (xy 113.318694 78.054733)
-				(xy 113.318693 78.054733) (xy 113.35074 78.132101) (xy 113.350741 78.132102) (xy 114.38908 79.170441)
-				(xy 114.466448 79.202488) (xy 114.909882 79.202488) (xy 114.909883 79.202488) (xy 114.987251 79.170441)
-				(xy 115.440518 78.717174) (xy 115.492844 78.6955) (xy 115.94687 78.6955) (xy 115.946871 78.6955)
-				(xy 116.024239 78.663453) (xy 116.225518 78.462174) (xy 116.277844 78.4405) (xy 117.6455 78.4405)
-				(xy 117.697826 78.462174) (xy 117.7195 78.5145) (xy 117.7195 78.74482) (xy 117.725761 78.776294)
+				(xy 113.318693 78.054733) (xy 113.35074 78.132101) (xy 113.350741 78.132102) (xy 114.329866 79.111227)
+				(xy 114.38908 79.170441) (xy 114.466448 79.202488) (xy 114.909882 79.202488) (xy 114.909883 79.202488)
+				(xy 114.987251 79.170441) (xy 115.440518 78.717174) (xy 115.492844 78.6955) (xy 115.94687 78.6955)
+				(xy 115.946871 78.6955) (xy 116.024239 78.663453) (xy 116.225518 78.462174) (xy 116.277844 78.4405)
+				(xy 117.6455 78.4405) (xy 117.697826 78.462174) (xy 117.7195 78.5145) (xy 117.7195 78.74482) (xy 117.725761 78.776294)
 				(xy 117.728233 78.788722) (xy 117.760352 78.836793) (xy 117.761496 78.838504) (xy 117.811278 78.871767)
 				(xy 117.85518 78.8805) (xy 117.855181 78.8805) (xy 118.884819 78.8805) (xy 118.88482 78.8805) (xy 118.928722 78.871767)
 				(xy 118.978504 78.838504) (xy 119.011767 78.788722) (xy 119.0205 78.74482) (xy 119.0205 77.71518)
