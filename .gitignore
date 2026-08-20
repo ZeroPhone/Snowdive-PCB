@@ -12,6 +12,7 @@ _autosave-*
 _saved_*
 *.tmp
 *-backups/
+*.history/
 
 # Project setting files
 *.kicad_prl
