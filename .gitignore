@@ -47,6 +47,7 @@ fp-info-cache
 
 # "rescue" backup files
 rescue-backup/
+_restore_backup_*/
 
 # panel files
 panel*kicad_pcb
