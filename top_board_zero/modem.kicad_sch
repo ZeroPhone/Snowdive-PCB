@@ -10200,7 +10200,7 @@
 			(uuid "dc37a2c8-e53f-4841-ac39-698abfbcb6aa")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R27")
 					(unit 1)
@@ -10292,7 +10292,7 @@
 			(uuid "13ae164b-15b0-4d0c-b61c-2cef211538ea")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C48")
 					(unit 1)
@@ -10384,7 +10384,7 @@
 			(uuid "5633f42d-85e6-419d-96c7-6a1715d41b6e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C30")
 					(unit 1)
@@ -10477,7 +10477,7 @@
 			(uuid "fcd4084b-0772-47b4-b8c8-e4f08d69ebe7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "D6")
 					(unit 1)
@@ -10567,7 +10567,7 @@
 			(uuid "0edc1b20-31f2-4d00-9570-d2ebcef66832")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R16")
 					(unit 1)
@@ -10647,7 +10647,7 @@
 			(uuid "d9ea3b7d-6548-48f8-9fa0-b2aca97cbf1f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR026")
 					(unit 1)
@@ -10739,7 +10739,7 @@
 			(uuid "b208e90d-c543-4656-95a0-b277257b0eea")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C21")
 					(unit 1)
@@ -10831,7 +10831,7 @@
 			(uuid "d40a7742-7287-4c98-8c81-c0ea4f6d39a5")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C50")
 					(unit 1)
@@ -10932,7 +10932,7 @@
 			(uuid "968969fd-464a-464f-abeb-c026990ebb96")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "J16")
 					(unit 1)
@@ -11008,7 +11008,7 @@
 			(uuid "db983a95-eaa8-49e7-86fe-dd3d58cc898e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP12")
 					(unit 1)
@@ -11086,7 +11086,7 @@
 			(uuid "0e2aef64-82bc-46ab-97ce-813d0820283b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0174")
 					(unit 1)
@@ -11180,7 +11180,7 @@
 			(uuid "819306fe-c7fd-4463-a8de-0af976bce401")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "D5")
 					(unit 1)
@@ -11257,7 +11257,7 @@
 			(uuid "2452aa65-12a5-4cdf-b835-10b81e078e59")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0320")
 					(unit 1)
@@ -11350,7 +11350,7 @@
 			(uuid "01eb088e-c086-4041-835b-e4a372c3205f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "D4")
 					(unit 1)
@@ -11430,7 +11430,7 @@
 			(uuid "83b339ff-aa70-49d0-9463-99d20bf2a9e8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR023")
 					(unit 1)
@@ -11511,7 +11511,7 @@
 			(uuid "204fd732-0f21-455b-b532-f994fcb75524")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "J11")
 					(unit 1)
@@ -11589,7 +11589,7 @@
 			(uuid "630e08b9-884a-49f8-9aed-29deef840575")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR052")
 					(unit 1)
@@ -11667,7 +11667,7 @@
 			(uuid "a3db137b-5811-4ca4-852c-79970d5fd9b1")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0321")
 					(unit 1)
@@ -11759,7 +11759,7 @@
 			(uuid "3b87eddd-65df-4b84-a05c-7139519c3c45")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C33")
 					(unit 1)
@@ -11840,7 +11840,7 @@
 			(uuid "e167dc95-86ae-49cf-bf8d-a42fbc2a4c83")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "J10")
 					(unit 1)
@@ -11920,7 +11920,7 @@
 			(uuid "9c38b53c-5e39-460a-b1bf-de4a50141cfe")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0125")
 					(unit 1)
@@ -12000,7 +12000,7 @@
 			(uuid "e13339f7-f7b1-434e-8474-3e379f7b662d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0112")
 					(unit 1)
@@ -12096,7 +12096,7 @@
 			(uuid "24003855-3bdc-4b8b-a8d7-c3957689f54e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "RF1")
 					(unit 1)
@@ -12199,7 +12199,7 @@
 			(uuid "bddf971c-5255-468c-9bca-b5346d33c711")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R70")
 					(unit 1)
@@ -12314,7 +12314,7 @@
 			(uuid "cc2e075d-0b68-4e96-957d-25c8c4ac78c6")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q16")
 					(unit 2)
@@ -12406,7 +12406,7 @@
 			(uuid "b2911edd-64ae-4cd5-bb96-56d84f806e78")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C5")
 					(unit 1)
@@ -12484,7 +12484,7 @@
 			(uuid "ae5ad66c-f137-49d2-ae7c-7bce922082f3")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR024")
 					(unit 1)
@@ -12560,7 +12560,7 @@
 			(uuid "49fed39b-8566-4821-885a-b8e0b4fc32a2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP18")
 					(unit 1)
@@ -12664,7 +12664,7 @@
 			(uuid "fe95f1ad-2ecd-4b22-a552-af7f62f8a470")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R118")
 					(unit 1)
@@ -12769,7 +12769,7 @@
 			(uuid "369330ca-e787-425f-bf59-c26db52558cd")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R136")
 					(unit 1)
@@ -12847,7 +12847,7 @@
 			(uuid "5f8910a2-a23f-4bec-8360-468ffac61f8f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0115")
 					(unit 1)
@@ -12927,7 +12927,7 @@
 			(uuid "2c7a3a93-7ca7-4196-9140-c0e812f81a6e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0109")
 					(unit 1)
@@ -13007,7 +13007,7 @@
 			(uuid "23d8f805-10fc-4387-ab8a-6aa1eeed9efc")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR013")
 					(unit 1)
@@ -13111,7 +13111,7 @@
 			(uuid "ae49b6b0-7041-4897-bdaa-b790ce13035c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R29")
 					(unit 1)
@@ -13189,7 +13189,7 @@
 			(uuid "5500d5e5-0ebd-4a45-8df7-b6c49b105ec0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR035")
 					(unit 1)
@@ -13305,7 +13305,7 @@
 			(uuid "20e33e54-9e3f-4fda-8655-1e8bc252870e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q15")
 					(unit 1)
@@ -13420,7 +13420,7 @@
 			(uuid "20e33e54-9e3f-4fda-8655-1e8bc252870f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q16")
 					(unit 1)
@@ -13512,7 +13512,7 @@
 			(uuid "8f396455-0d99-4f24-881b-9c634ca8618f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C23")
 					(unit 1)
@@ -13588,7 +13588,7 @@
 			(uuid "cdd5261a-5443-4050-929b-2fdace85060f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP6")
 					(unit 1)
@@ -13666,7 +13666,7 @@
 			(uuid "1c2e590a-cfd8-423f-920a-1688f8ce125b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0229")
 					(unit 1)
@@ -13742,7 +13742,7 @@
 			(uuid "2a06d5c5-4cc3-4fc7-bfb7-9bb5fe6f9480")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP5")
 					(unit 1)
@@ -13818,7 +13818,7 @@
 			(uuid "8f4e7b9b-0212-40f6-9578-cdd9c5c4cfa8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP17")
 					(unit 1)
@@ -13894,7 +13894,7 @@
 			(uuid "03404302-d8bf-4ab7-9373-658de9e83813")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP15")
 					(unit 1)
@@ -13974,7 +13974,7 @@
 			(uuid "eb55c0da-48f8-4c99-9fba-3fdf30943ec9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0230")
 					(unit 1)
@@ -14077,7 +14077,7 @@
 			(uuid "b4eda5be-ecc3-45d0-8c0b-e37fc9c53fed")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R24")
 					(unit 1)
@@ -14157,7 +14157,7 @@
 			(uuid "f94e03a4-a657-420a-8e08-b16441351786")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR014")
 					(unit 1)
@@ -14249,7 +14249,7 @@
 			(uuid "b79e7cac-d8ec-4e93-aff0-28d9406da492")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C37")
 					(unit 1)
@@ -14341,7 +14341,7 @@
 			(uuid "f26e9497-87a8-433b-8f63-43ea1c4c9e23")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C34")
 					(unit 1)
@@ -14418,7 +14418,7 @@
 			(uuid "1b14fe6d-e276-45b5-9a49-24d05c5a2e83")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0111")
 					(unit 1)
@@ -14508,7 +14508,7 @@
 			(uuid "e5c04453-1d18-42db-a163-2963dd3e37b1")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R4")
 					(unit 1)
@@ -14599,7 +14599,7 @@
 			(uuid "b53d1dab-1c97-4108-996a-291f53b082a4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R17")
 					(unit 1)
@@ -14691,7 +14691,7 @@
 			(uuid "26c0dbaa-af33-4784-836f-b2c6ee94cde3")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C16")
 					(unit 1)
@@ -14772,7 +14772,7 @@
 			(uuid "287ae5fc-206f-4b19-89dc-5a20b70913f7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C31")
 					(unit 1)
@@ -14848,7 +14848,7 @@
 			(uuid "06c51ec4-5a58-4b12-a01a-9cbbdcb7bce2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP7")
 					(unit 1)
@@ -14926,7 +14926,7 @@
 			(uuid "44449cca-2c27-4323-ae1e-af973adef1e9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0123")
 					(unit 1)
@@ -15004,7 +15004,7 @@
 			(uuid "5d845061-c5b0-4473-a718-5ceeba08cf8d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0173")
 					(unit 1)
@@ -15096,7 +15096,7 @@
 			(uuid "9327bc4b-f828-44b8-b959-3e99a7e4020c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C27")
 					(unit 1)
@@ -15200,7 +15200,7 @@
 			(uuid "1ae00bf1-d642-490f-a421-31703f869c53")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R28")
 					(unit 1)
@@ -15280,7 +15280,7 @@
 			(uuid "e95e3f63-e203-4023-b070-d025d063a524")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR027")
 					(unit 1)
@@ -15357,7 +15357,7 @@
 			(uuid "42a937be-160b-4338-b310-d5014cbe2762")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0181")
 					(unit 1)
@@ -15461,7 +15461,7 @@
 			(uuid "ce5a855f-e251-4b67-98e2-41fcc9c8ef83")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R68")
 					(unit 1)
@@ -15541,7 +15541,7 @@
 			(uuid "0b274b17-5b3d-435a-a2e3-87334800e246")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR08")
 					(unit 1)
@@ -15621,7 +15621,7 @@
 			(uuid "a90606ad-399b-4166-b679-58cf32567064")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR055")
 					(unit 1)
@@ -15713,7 +15713,7 @@
 			(uuid "4d0cd1f3-ef64-4f16-a242-63f48b99a09b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C47")
 					(unit 1)
@@ -15793,7 +15793,7 @@
 			(uuid "72fab9ee-d6df-493f-af10-def54b689238")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR07")
 					(unit 1)
@@ -15895,7 +15895,7 @@
 			(uuid "9fc73906-6999-4e06-a2bb-2441d73870f2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "L1")
 					(unit 1)
@@ -16010,7 +16010,7 @@
 			(uuid "20e33e54-9e3f-4fda-8655-1e8bc2528710")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q1")
 					(unit 2)
@@ -16090,7 +16090,7 @@
 			(uuid "18a1a00c-1985-4ff4-8c0b-3ac9a50b9d1c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0126")
 					(unit 1)
@@ -16182,7 +16182,7 @@
 			(uuid "9fa44617-2469-4255-9a3e-e8768be4c8f5")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C15")
 					(unit 1)
@@ -16260,7 +16260,7 @@
 			(uuid "0b38887e-cf98-4932-b450-ad4ec7f92b19")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0114")
 					(unit 1)
@@ -16600,7 +16600,7 @@
 			(uuid "333b28a3-8f12-47aa-a57c-7fb0edb23267")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "U16")
 					(unit 1)
@@ -16679,7 +16679,7 @@
 			(uuid "fda2bf37-a44b-4e3a-a297-4c4b4bf5a9c7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0319")
 					(unit 1)
@@ -16755,7 +16755,7 @@
 			(uuid "4e978981-a406-4e20-8a24-66a0b399f11c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP14")
 					(unit 1)
@@ -16871,7 +16871,7 @@
 			(uuid "b5fad1e5-8427-4301-be25-c06f0dfe5893")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q15")
 					(unit 2)
@@ -16951,7 +16951,7 @@
 			(uuid "ae3baa08-371d-459b-9a01-84ecd382028b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR030")
 					(unit 1)
@@ -17031,7 +17031,7 @@
 			(uuid "93f3459c-b556-4506-9ee2-13d8f488a256")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0124")
 					(unit 1)
@@ -17135,7 +17135,7 @@
 			(uuid "7a315a40-f376-42e0-8c20-21fe6ac24071")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R69")
 					(unit 1)
@@ -17227,7 +17227,7 @@
 			(uuid "8d3f06bb-a691-4a92-bed3-313048f61938")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C20")
 					(unit 1)
@@ -17303,7 +17303,7 @@
 			(uuid "1138a89f-03bd-4fb2-a0d0-5f5a9070bb16")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP9")
 					(unit 1)
@@ -17383,7 +17383,7 @@
 			(uuid "ec9e33ba-96aa-4cc4-9da1-a4e133a7da7c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR092")
 					(unit 1)
@@ -17475,7 +17475,7 @@
 			(uuid "c2a6e48b-71e9-4ab3-98c1-858465859bdc")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C35")
 					(unit 1)
@@ -17567,7 +17567,7 @@
 			(uuid "3b89b10e-fc52-467d-a135-fb5a708ee4a7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C39")
 					(unit 1)
@@ -17659,7 +17659,7 @@
 			(uuid "7208ccbd-75c3-4f90-b873-832220ad9c19")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C25")
 					(unit 1)
@@ -17751,7 +17751,7 @@
 			(uuid "22707d0a-0806-426a-825d-7c9e51d3e62b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C22")
 					(unit 1)
@@ -17866,7 +17866,7 @@
 			(uuid "20e33e54-9e3f-4fda-8655-1e8bc2528711")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Q1")
 					(unit 1)
@@ -17947,7 +17947,7 @@
 			(uuid "b7371c10-2389-42c3-9a7d-aa0adc3514e0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C32")
 					(unit 1)
@@ -18023,7 +18023,7 @@
 			(uuid "e869c3fc-2216-4883-a493-1b41c38ce900")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP8")
 					(unit 1)
@@ -18115,7 +18115,7 @@
 			(uuid "f4b4c7ae-9a10-41b6-8e16-d1b1cb5860ce")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C14")
 					(unit 1)
@@ -18207,7 +18207,7 @@
 			(uuid "a1da342f-d1c5-481f-b819-2fa7acdd5172")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C29")
 					(unit 1)
@@ -18311,7 +18311,7 @@
 			(uuid "0ec25959-a678-40f2-b3c5-080aed860799")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R30")
 					(unit 1)
@@ -18414,7 +18414,7 @@
 			(uuid "b388ad02-1a2c-4150-bf7f-6494cea7e555")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R26")
 					(unit 1)
@@ -18488,6 +18488,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2987682"
+			(at 193.04 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "072ac871-9f94-4f73-9862-f2283367ed48")
 		)
@@ -18495,7 +18506,7 @@
 			(uuid "7ceb2f5e-15e3-4e9d-97c4-3a2f349d16e0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "AE1")
 					(unit 1)
@@ -18575,7 +18586,7 @@
 			(uuid "962b4a9b-9159-4ed8-a315-13d8b9b24270")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0103")
 					(unit 1)
@@ -18652,7 +18663,7 @@
 			(uuid "a4ef7f81-0cdd-466e-8232-f97d05905754")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0201")
 					(unit 1)
@@ -18744,7 +18755,7 @@
 			(uuid "0344a695-29ce-41aa-9a5f-514cfe1828d6")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C28")
 					(unit 1)
@@ -18820,7 +18831,7 @@
 			(uuid "082fa53a-bb91-4e1d-a610-7fb703e0a2da")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP16")
 					(unit 1)
@@ -18900,7 +18911,7 @@
 			(uuid "9b296567-e612-496f-b12e-511dba47aa6b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR029")
 					(unit 1)
@@ -18980,7 +18991,7 @@
 			(uuid "827cb7c9-6d33-4692-b5d1-806347fcbdde")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR025")
 					(unit 1)
@@ -19060,7 +19071,7 @@
 			(uuid "0645a799-0aaa-440f-a906-ef0a68e2c99f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0340")
 					(unit 1)
@@ -19137,7 +19148,7 @@
 			(uuid "7785bcfa-c1f8-470f-aa48-a11692b3a34a")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0177")
 					(unit 1)
@@ -19229,7 +19240,7 @@
 			(uuid "09a82eef-37c0-41c2-bbfd-74aef900f0e7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "C38")
 					(unit 1)
@@ -19332,7 +19343,7 @@
 			(uuid "dc4ba6a7-879d-459d-9c3e-0a38ad9ed282")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R25")
 					(unit 1)
@@ -19422,7 +19433,7 @@
 			(uuid "b1b4ddb4-80a8-47e1-bcf6-b9b1792a5de4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R18")
 					(unit 1)
@@ -19502,7 +19513,7 @@
 			(uuid "deaec94e-ac2b-47e3-b68c-f7974b9db102")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0110")
 					(unit 1)
@@ -19606,7 +19617,7 @@
 			(uuid "38e9c209-ae3f-4a7b-b6f6-4ca0f72390d9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R117")
 					(unit 1)
@@ -19682,7 +19693,7 @@
 			(uuid "51631c87-aaad-429a-bd48-019b4f9952da")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP13")
 					(unit 1)
@@ -19772,7 +19783,7 @@
 			(uuid "2650a06e-3f5e-472b-8b62-8fa766fb18f8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R15")
 					(unit 1)
@@ -19875,7 +19886,7 @@
 			(uuid "3340a874-20a3-4b95-be98-2371beb59563")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "R23")
 					(unit 1)
@@ -19951,7 +19962,7 @@
 			(uuid "b855e9cb-9896-4792-8187-8a299e1e7cc4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "TP10")
 					(unit 1)
@@ -20031,7 +20042,7 @@
 			(uuid "071298e8-4641-4eb2-b6c9-c67288a16a8f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR028")
 					(unit 1)
@@ -20111,7 +20122,7 @@
 			(uuid "5202c044-97b3-4b9a-9e23-e36cfc07d44a")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0113")
 					(unit 1)
@@ -20229,7 +20240,7 @@
 			(uuid "05157b45-2d97-4e22-ac90-5c5e037a7503")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "Card1")
 					(unit 1)
@@ -20307,7 +20318,7 @@
 			(uuid "bb69dbe8-5384-48b9-955b-804057f1f4d2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47/c1152698-83fa-4acd-a269-f75d2587eda3"
 					(reference "#PWR0202")
 					(unit 1)

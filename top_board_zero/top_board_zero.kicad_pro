@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 0.9
+          "height": 0.8,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.17,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.17,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -95,26 +95,6 @@
         ],
         [
           "hole_to_hole|176422038|61890987|2eab2d96-4950-4bbd-96c8-1f07d84530bc|7ec09ffd-1921-4c7b-9856-92263d3f8a10",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|102860000|120430000|d1990896-a17f-41a3-9ed8-28d3863da061|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|237890000|108299000|306ecf9d-e57f-48df-b02d-baa4305c8640|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|43410000|32640000|c2588e9d-05e9-48d1-ba12-5a983a23cb57|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|49280002|80780003|2cb175fb-7c42-4b3f-8f99-dd7a1e87822a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|54350000|130740000|df9b3c0d-16f9-4400-849d-ec6114250cfc|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -145,7 +125,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
@@ -554,7 +534,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "top_board_pizero.kicad_pro",
+    "filename": "top_board_zero.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -829,18 +809,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "top_board_pizero.kicad_sch",
-        "name": "top_board_pizero",
+        "filename": "top_board_zero.kicad_sch",
+        "name": "top_board_zero",
         "uuid": "e52ba1d2-b349-4f22-b615-941f863c8a47"
       }
     ],
-    "used_designators": "#PWR157,#PWR163,#PWR243,#PWR291-294,#PWR296-297,#PWR299,#PWR301-359,C75-82,J12-23,JP5,JP8-13,R122-129,R131-143,RN1,SW4,SW7,U41-44,U46",
+    "used_designators": "#PWR157,#PWR163,#PWR208,#PWR210,#PWR243,#PWR291-294,#PWR296-297,#PWR299,#PWR301-371,C75-84,D1,H3-4,J12-24,JP5,JP8-13,R122-129,R131-144,RN1,SW4,SW7,U41-44,U46-48",
     "variants": []
   },
   "sheets": [
     [
       "e52ba1d2-b349-4f22-b615-941f863c8a47",
-      "top_board_pizero"
+      "top_board_zero"
     ],
     [
       "95d99fc7-a57a-46cc-8a05-15fe44a11a28",

@@ -8763,7 +8763,7 @@
 	)
 	(text "SEL low = 1\nSEL high = 2"
 		(exclude_from_sim no)
-		(at 52.832 147.828 0)
+		(at 52.832 131.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8781,7 +8781,7 @@
 		)
 		(uuid "2b12ee1d-48c3-4411-be9e-caece31bc80b")
 	)
-	(text "v1 TODO\n\n[s] silk markings for usb testpoints (?)\n[s] rename to just zero?\n[s] useful names for testpoints/jumpers\n[ ] ffc socket under TPM for idk LoRa addon (interferes with TPM EP =( )\n[ ] add something in the area above the two hardware switches (LEDs?)\n[ ] play out the \"palmtop powered from top board usbc\" scenario\n[ ] markings for hardware switches!\n[ ] add buttons/switches\n[ ] more ESD diodes on FFC\n[?] testpoints? for cpu platform bringup. maybe more for the universal board.\n[?] unite the usb mux gpios into one(?)\n[?] fix the gpio (?)\n[?] diode from ec_present for autoboot?\n[?] USB-serial?\n[?] bottom: boot button footprint? WITH DIODE\n\n[x] fix tpm i2c\n[x] rewire for esp32-c5\n[x] retune sdio length\n[x] picoprobe-compatible UART 3-pin JST-SH\n[x] extra button(s) for button-on-the-bottom pi zero format boards\n[x] i2c touch fallback on the 40-pin display conn (allows for FFC adapters if someone is wild enough to design one)\n[x] route neopixel output to uhhhhh??? idk lol\n[x] default state pulls on display pins? (only CS called for)\n[x] adjust esp32 qwiic position (cuz of the PWM chip)\n[x] fox\n[x] some sort of connectors for easier touchpad/etc i2c0/i2c1 connectivity?\n[x] conn for cool display touch\n[x] touch connector?\n[x] hall sensor\n[x] 2.2k pulldown on mic (i forgor) (used 2k)\n[x] temp sensors on i2c!\n[x] current sensor for CPU consumption!\n[x] extra USB tap\n[x] center the expansion conn\n[x] gpio neopixel driver jumper\n[x] silk squares on gnd on exp conn for reference\n[x] uart tx/rx arrows on silk to mark exp connector and qwiic polarity in a more immediately visible way\n[x] switch ec int to a npxl-capable pin\n[x] standalone npxl control from ec int\n[x] pin 1 markers everywhere\n  [x] meowpixels\n  [x] TVS diode\n[x] override for the fusb302!!! (for radxa zero)\n  [x] inline resistor for gpio\n[x] analog audio header markings\n[x] buttons on the front (for ZPUI)\n  [x] that one tiny 5-way keypad\n  [x] or one of those tiney joysticks\n  [x] TODO go through my newly acquired funny switches trove, lmfao\n[x] put sdio pullups after the sdio series resistors\n[x] radxa a7z pcie port cutout\n[x] move zero footprint towards outside\n[x] display backlight connector\n[x] spi pin header silk\n[x] qwiic footprint for USB uplink\n[x] pullup for the modem power pgood?\n[x] 480x320 ILI9488 3.5\"/4.0\" SPI display\n[x] spi series resistors\n[x] display-TPM CS switch flip\n[x] testpoints for other SPI displays (UPD a whole header, even!)\n[x] extend solderable display pads\n[x] optional i2c pullups on pi zero i2c\n[x] eeprom i2c disconnectable!\n[x] i2c driver for backlight\n  [x] disconnect screen_bl from gpio expander\n  [x] flashlight\n  [n] check other such drivers I saw\n  [n] route extra LEDs to the free pins?\n[x] more usb port pads (for easier data line tapping on next versions)\n[x] pi zero numbering warning\n[x] serial number field\n[x] sdio pullups\n[x] fusb fuse\n[x] route sbc gpios to bottom ffc header for expansion yippie\n[x] some sorta eeprom that's readable/writable by the ec?? id eeprom reading/writing would be funny\n[x] thicken sim_vdd track\n[x] expose a7682e uart\n[x] 5V for display backlight to actual 5V\n[x] reposition neopixels to accommodate radxa under-board microsd slots (make them vertical, move closer to exp)\n[x] dual HAT EEPROM! (switch ADDR by IO_MUX_SEL)\n  [n] with override from an EC GPIO? maybe? idk it shouldn't be needed\n[n] move esp switch to other side of esp?\n	[n] does that still allow a standoff?\n[?] antenna cable slot\n[n] rotate the sy at the qwiic a lil (sadly can't)\n[n] re-silk jumpers\n[n] esp32 non-soldered pads exposed?\n[n] other adjustments, maybe testpoints? for boards with fucked up 40-pin conns (i.e. radxa zero v1.5)\n[n] extra 3.3V reg for when the on-CPU one fucks up? only really useful for the ESP32-C6 and the expansion port."
+	(text "v1 TODO\n\n[x] silk markings for usb testpoints\n[x] more ESD diodes on FFC\n[x] ffc socket under TPM for idk LoRa addon (interferes with TPM EP =( )\n[x] markings for hardware switches!\n[x] fix iovcc when powered from vsys\n[x] rename to just zero\n[x] fix tpm i2c\n[x] rewire for esp32-c5\n[x] retune sdio length\n[x] picoprobe-compatible UART 3-pin JST-SH\n[x] extra button(s) for button-on-the-bottom pi zero format boards\n[x] i2c touch fallback on the 40-pin display conn (allows for FFC adapters if someone is wild enough to design one)\n[x] route neopixel output to uhhhhh??? idk lol\n[x] default state pulls on display pins? (only CS called for)\n[x] adjust esp32 qwiic position (cuz of the PWM chip)\n[x] fox\n[x] some sort of connectors for easier touchpad/etc i2c0/i2c1 connectivity?\n[x] conn for cool display touch\n[x] touch connector?\n[x] hall sensor\n[x] 2.2k pulldown on mic (i forgor) (used 2k)\n[x] temp sensors on i2c!\n[x] current sensor for CPU consumption!\n[x] extra USB tap\n[x] center the expansion conn\n[x] gpio neopixel driver jumper\n[x] silk squares on gnd on exp conn for reference\n[x] uart tx/rx arrows on silk to mark exp connector and qwiic polarity in a more immediately visible way\n[x] switch ec int to a npxl-capable pin\n[x] standalone npxl control from ec int\n[x] pin 1 markers everywhere\n  [x] meowpixels\n  [x] TVS diode\n[x] override for the fusb302!!! (for radxa zero)\n  [x] inline resistor for gpio\n[x] analog audio header markings\n[x] buttons on the front (for ZPUI)\n  [x] that one tiny 5-way keypad\n  [x] or one of those tiney joysticks\n  [x] TODO go through my newly acquired funny switches trove, lmfao\n[x] put sdio pullups after the sdio series resistors\n[x] radxa a7z pcie port cutout\n[x] move zero footprint towards outside\n[x] display backlight connector\n[x] spi pin header silk\n[x] qwiic footprint for USB uplink\n[x] pullup for the modem power pgood?\n[x] 480x320 ILI9488 3.5\"/4.0\" SPI display\n[x] spi series resistors\n[x] display-TPM CS switch flip\n[x] testpoints for other SPI displays (UPD a whole header, even!)\n[x] extend solderable display pads\n[x] optional i2c pullups on pi zero i2c\n[x] eeprom i2c disconnectable!\n[x] i2c driver for backlight\n  [x] disconnect screen_bl from gpio expander\n  [x] flashlight\n  [n] check other such drivers I saw\n  [n] route extra LEDs to the free pins?\n[x] more usb port pads (for easier data line tapping on next versions)\n[x] pi zero numbering warning\n[x] serial number field\n[x] sdio pullups\n[x] fusb fuse\n[x] route sbc gpios to bottom ffc header for expansion yippie\n[x] some sorta eeprom that's readable/writable by the ec?? id eeprom reading/writing would be funny\n[x] thicken sim_vdd track\n[x] expose a7682e uart\n[x] 5V for display backlight to actual 5V\n[x] reposition neopixels to accommodate radxa under-board microsd slots (make them vertical, move closer to exp)\n[x] dual HAT EEPROM! (switch ADDR by IO_MUX_SEL)\n  [n] with override from an EC GPIO? maybe? idk it shouldn't be needed\n[n] move esp switch to other side of esp?\n	[n] does that still allow a standoff?\n[n] antenna cable slot\n[n] rotate the sy at the qwiic a lil (sadly can't)\n[n] re-silk jumpers\n[n] esp32 non-soldered pads exposed?\n[n] other adjustments, maybe testpoints? for boards with fucked up 40-pin conns (i.e. radxa zero v1.5)\n[n] extra 3.3V reg for when the on-CPU one fucks up? only really useful for the ESP32-C6 and the expansion port.\\\n[n] add something in the area above the two hardware switches (LEDs?)\n[n] play out the \"palmtop powered from top board usbc\" scenario\n[n] useful names for testpoints/jumpers\n[n] USB-serial\n[?] testpoints? for cpu platform bringup. maybe more for the universal board.\n[?] unite the usb mux gpios into one(?)\n[?] fix the gpio (?)\n[?] diode from ec_present for autoboot?\n[?] bottom: boot button footprint? WITH DIODE"
 		(exclude_from_sim no)
 		(at 300.228 100.584 0)
 		(effects
@@ -8794,7 +8794,7 @@
 	)
 	(text "spare button usable for\nBOOT and other buttons\nthat ZERO-formfactor SBCs\nhave on PCB bottom side"
 		(exclude_from_sim no)
-		(at 34.036 116.332 0)
+		(at 34.036 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8874,7 +8874,7 @@
 	)
 	(text "mux for internal UART addons"
 		(exclude_from_sim no)
-		(at 35.56 171.45 0)
+		(at 35.56 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8944,6 +8944,16 @@
 		)
 		(uuid "c607a0c8-5963-48fe-a511-73ef68e33471")
 	)
+	(text "4 holes\n1 standoff"
+		(exclude_from_sim no)
+		(at 163.322 194.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd7fff66-7646-4ee4-a933-f3a603c09f47")
+	)
 	(text "EN filter"
 		(exclude_from_sim no)
 		(at 170.942 31.75 0)
@@ -8994,6 +9004,16 @@
 			(justify left)
 		)
 		(uuid "f6d0e6ef-29c8-4a63-a406-a3ba303959f4")
+	)
+	(text "ESD protection"
+		(exclude_from_sim no)
+		(at 124.46 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f76474fe-cd50-4773-aa08-09d56d3516f7")
 	)
 	(text "62\n63\n64\n65\n66\n67\n68\n69\n\n70\n71\n72"
 		(exclude_from_sim no)
@@ -10246,7 +10266,7 @@
 	)
 	(polyline
 		(pts
-			(xy 40.64 153.035) (xy 41.91 154.305)
+			(xy 40.64 136.525) (xy 41.91 137.795)
 		)
 		(stroke
 			(width 0)
@@ -10876,7 +10896,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.91 155.575) (xy 41.91 154.305)
+			(xy 41.91 139.065) (xy 41.91 137.795)
 		)
 		(stroke
 			(width 0)
@@ -11090,7 +11110,7 @@
 	)
 	(global_label "FFC_2_D-"
 		(shape input)
-		(at 116.84 187.96 180)
+		(at 114.3 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11100,7 +11120,7 @@
 		)
 		(uuid "0406eb70-af5e-465f-809c-18d986bfda6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 187.96 0)
+			(at 101.8805 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11354,7 +11374,7 @@
 	)
 	(global_label "INTL_TXD"
 		(shape input)
-		(at 27.94 156.21 180)
+		(at 27.94 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11364,7 +11384,7 @@
 		)
 		(uuid "1252a4ad-043b-495c-83f4-109280433e44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.6091 156.21 0)
+			(at 16.6091 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,6 +11708,30 @@
 			)
 		)
 	)
+	(global_label "CPU_SDA"
+		(shape input)
+		(at 135.89 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28887edd-cd02-4fd0-9aa0-3c0990ea2379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.4986 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MODEM_PGOOD"
 		(shape input)
 		(at 172.72 129.54 0)
@@ -11904,6 +11948,30 @@
 			)
 		)
 	)
+	(global_label "CPU_SCL"
+		(shape input)
+		(at 135.89 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "378f4c0d-af05-4372-8130-58d09d501bde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.5591 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO_SCL"
 		(shape input)
 		(at 213.36 132.08 180)
@@ -12050,7 +12118,7 @@
 	)
 	(global_label "UART_MUX_SEL"
 		(shape input)
-		(at 43.18 139.7 0)
+		(at 43.18 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12060,7 +12128,7 @@
 		)
 		(uuid "42e468ba-75ef-4edc-9423-03153a897894")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1351 139.7 0)
+			(at 60.1351 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12069,6 +12137,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "EC_SDA"
+		(shape input)
+		(at 135.89 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42ec704a-7723-4b09-ac7d-8197bb826e9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9501 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12242,7 +12334,7 @@
 	)
 	(global_label "UART_MUX_SEL"
 		(shape input)
-		(at 31.75 167.64 0)
+		(at 31.75 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12252,7 +12344,7 @@
 		)
 		(uuid "53775cbc-336c-4f3c-a4a3-6223d38edfd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7051 167.64 0)
+			(at 48.7051 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12794,7 +12886,7 @@
 	)
 	(global_label "RXD"
 		(shape input)
-		(at 50.8 156.21 0)
+		(at 50.8 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12804,7 +12896,7 @@
 		)
 		(uuid "76d827da-e1fe-480c-80a5-96a3b624eeda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5347 156.21 0)
+			(at 57.5347 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13608,6 +13700,30 @@
 			)
 		)
 	)
+	(global_label "EC_SCL"
+		(shape input)
+		(at 135.89 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8e1433f-57a7-40ea-9b18-801b5ca7bd12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.0106 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO_SDA"
 		(shape input)
 		(at 121.92 132.08 180)
@@ -13658,7 +13774,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 50.8 153.67 0)
+		(at 50.8 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13668,7 +13784,7 @@
 		)
 		(uuid "aee8c7ad-b3fc-412e-b21f-0268fd708586")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.2323 153.67 0)
+			(at 57.2323 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,7 +13846,7 @@
 	)
 	(global_label "Pi_GPIO15"
 		(shape input)
-		(at 27.94 153.67 180)
+		(at 27.94 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13740,7 +13856,7 @@
 		)
 		(uuid "b3502c11-8a92-412c-8d05-e43cd52ed9c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2181 153.67 0)
+			(at 15.2181 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13754,7 +13870,7 @@
 	)
 	(global_label "FFC_1_D-"
 		(shape input)
-		(at 116.84 182.88 180)
+		(at 114.3 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13764,7 +13880,7 @@
 		)
 		(uuid "b4de59c6-08fd-47e4-965e-af465ecf5b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 182.88 0)
+			(at 101.8805 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13826,7 +13942,7 @@
 	)
 	(global_label "Pi_GPIO14"
 		(shape input)
-		(at 27.94 151.13 180)
+		(at 27.94 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13836,7 +13952,7 @@
 		)
 		(uuid "bc66554a-a5f1-4c76-8951-72864ecdb032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2181 151.13 0)
+			(at 15.2181 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14090,7 +14206,7 @@
 	)
 	(global_label "FFC_1_D+"
 		(shape input)
-		(at 116.84 180.34 180)
+		(at 114.3 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14100,7 +14216,7 @@
 		)
 		(uuid "cd8ab7ff-9885-420e-8ee2-02e22e340f7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 180.34 0)
+			(at 101.8805 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14162,7 +14278,7 @@
 	)
 	(global_label "FFC_2_D+"
 		(shape input)
-		(at 116.84 185.42 180)
+		(at 114.3 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14172,7 +14288,7 @@
 		)
 		(uuid "d614b71e-75bb-4886-a83a-8dbe82631258")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 185.42 0)
+			(at 101.8805 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14234,7 +14350,7 @@
 	)
 	(global_label "INTL_RXD"
 		(shape input)
-		(at 27.94 158.75 180)
+		(at 27.94 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14244,7 +14360,7 @@
 		)
 		(uuid "dac3fbbc-27d3-41eb-91c5-66b84636c757")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.3067 158.75 0)
+			(at 16.3067 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,7 +14995,7 @@
 			(uuid "5ebf866b-fa52-4018-9d0e-7cff36009b5a")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0186")
 					(unit 1)
@@ -14957,7 +15073,7 @@
 			(uuid "94f4f776-7936-4b9c-b77e-de2a9c764b70")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0107")
 					(unit 1)
@@ -15037,7 +15153,7 @@
 			(uuid "c91323da-3687-4fe9-bacc-c5cfdce89106")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0179")
 					(unit 1)
@@ -15114,7 +15230,7 @@
 			(uuid "b0a479b7-f2dc-4b5e-a16f-09ca3f682708")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0167")
 					(unit 1)
@@ -15193,7 +15309,7 @@
 			(uuid "1f369c4d-380b-493c-ace5-51acedfba735")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR094")
 					(unit 1)
@@ -15297,9 +15413,86 @@
 			(uuid "99754e0e-f733-4d60-812b-101acac4058b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e4c824c-81cb-4a63-8324-c651db98a384")
+		(property "Reference" "#PWR0369"
+			(at 168.91 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fe882aa-a530-47e4-b428-f6d0f4420cc9")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "#PWR0369")
 					(unit 1)
 				)
 			)
@@ -15474,7 +15667,7 @@
 			(uuid "3e3df0b8-c8b2-4356-92bb-0005e7571e03")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J4")
 					(unit 1)
@@ -15578,7 +15771,7 @@
 			(uuid "63683bab-ac93-4249-884b-6b45ba45eb16")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R140")
 					(unit 1)
@@ -15693,7 +15886,7 @@
 			(uuid "97af4e4a-cc51-4e4c-a012-f9b567a9f033")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R124")
 					(unit 1)
@@ -15771,7 +15964,7 @@
 			(uuid "99121627-08da-4f88-82bd-7a1b2e00dd38")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0149")
 					(unit 1)
@@ -15848,7 +16041,7 @@
 			(uuid "a5d544a5-6418-49fa-aea7-f62c10d8c609")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0133")
 					(unit 1)
@@ -15925,7 +16118,7 @@
 			(uuid "6b7e7499-00bc-4632-bb89-3e48b2365234")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0169")
 					(unit 1)
@@ -15935,7 +16128,7 @@
 	)
 	(symbol
 		(lib_id "beepy:FSUSB42UMX")
-		(at 39.37 153.67 0)
+		(at 39.37 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15945,7 +16138,7 @@
 		(dnp no)
 		(uuid "1696112f-a9ac-44f8-a381-1e2a6e0d65de")
 		(property "Reference" "U30"
-			(at 47.498 143.256 0)
+			(at 47.498 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15956,7 +16149,7 @@
 			)
 		)
 		(property "Value" "PI3USB42ZMEX"
-			(at 46.482 162.306 0)
+			(at 46.482 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15967,7 +16160,7 @@
 			)
 		)
 		(property "Footprint" "top_board_pizero:QFN40P140X180X55-10N"
-			(at 66.04 240.97 0)
+			(at 66.04 224.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,7 +16172,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FSUSB42-D.PDF"
-			(at 66.04 340.97 0)
+			(at 66.04 324.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15991,7 +16184,7 @@
 			)
 		)
 		(property "Description" "15A Maximum ICCT over and Expanded Control Voltage Range (VIN= 1.8V, VCC= 4.3V) ; Packaged in: ; Low On Resistance: 3.9 Typical ; 8kV ESD Rating, >16kV Power/GND ESD Rating ; 10-Lead MSOP ; Low Power Consumption: 1A Maximum ; Wide -3dB Bandwitch: > 720MHz ; Low On Capacitance: 3.7pF Typical ; Over-Voltage Tolerance (OVT) on all USB Ports Up to 5.25V without External Components; 10-Lead UMLP (1.4 x 1.8mm)"
-			(at 38.862 133.604 0)
+			(at 38.862 117.094 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16002,7 +16195,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 66.04 540.97 0)
+			(at 66.04 524.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +16207,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 66.04 640.97 0)
+			(at 66.04 624.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16026,7 +16219,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FSUSB42UMX"
-			(at 66.04 740.97 0)
+			(at 66.04 724.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +16231,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FSUSB42UMX"
-			(at 66.04 840.97 0)
+			(at 66.04 824.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +16243,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FSUSB42UMX?qs=eJLAyKFqilUl3553fx9DLQ%3D%3D"
-			(at 66.04 940.97 0)
+			(at 66.04 924.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16062,7 +16255,7 @@
 			)
 		)
 		(property "Arrow Part Number" "FSUSB42UMX"
-			(at 66.04 1040.97 0)
+			(at 66.04 1024.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16267,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fsusb42umx/on-semiconductor?utm_currency=USD&region=nac"
-			(at 66.04 1140.97 0)
+			(at 66.04 1124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16086,7 +16279,7 @@
 			)
 		)
 		(property "LCSC Part" "C780880 "
-			(at 27.94 154.94 90)
+			(at 27.94 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16097,7 +16290,7 @@
 			)
 		)
 		(property "Alternatives" "FSUSB42UMX works too"
-			(at 27.94 154.94 90)
+			(at 27.94 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,9 +16331,126 @@
 			(uuid "b3aeafb9-b32a-4d70-b96c-3bc9f51ac7fa")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "esd_small:TPD4E02B04DQA")
+		(at 140.97 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17812ab6-9c77-45c4-a05c-539fe1ceca3f")
+		(property "Reference" "U48"
+			(at 136.398 192.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPAZ1043-04F"
+			(at 144.78 194.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+			(at 148.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 140.97 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 140.97 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "85fcc798-36b2-4806-85d1-3b270cc1b14d")
+		)
+		(pin "7"
+			(uuid "68437b53-feeb-4ff6-b4cb-3f221838401b")
+		)
+		(pin "3"
+			(uuid "1d519ffb-231f-4354-8304-d671844e0ae5")
+		)
+		(pin "9"
+			(uuid "bb370582-b96b-48e3-9447-9bd84f8ef978")
+		)
+		(pin "2"
+			(uuid "3261cacb-31f1-43f1-82ba-ebe4e8f66b5f")
+		)
+		(pin "4"
+			(uuid "44bcfe75-599e-4069-a4fd-54a828320c1a")
+		)
+		(pin "10"
+			(uuid "10063d7d-28cd-4765-9071-4beb60bbffe2")
+		)
+		(pin "6"
+			(uuid "9fdafbfd-ef2a-43fc-a251-85a8884b6563")
+		)
+		(pin "5"
+			(uuid "b014ef8d-e973-43a6-a1d0-d51f62cd7eeb")
+		)
+		(pin "1"
+			(uuid "9eb97634-23f0-4f68-9966-1552fd34eced")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "U48")
 					(unit 1)
 				)
 			)
@@ -16215,7 +16525,7 @@
 			(uuid "56dc7bd2-c6c0-48d8-94da-bf8f436e7480")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0310")
 					(unit 1)
@@ -16295,7 +16605,7 @@
 			(uuid "ca46ad83-e6c1-4b16-a5c8-8da71f7a2744")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0180")
 					(unit 1)
@@ -16396,7 +16706,7 @@
 			(uuid "4265781d-00c8-4f81-9888-ec0c36e82f77")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J9")
 					(unit 1)
@@ -16475,7 +16785,7 @@
 			(uuid "0b9641ea-272d-4bc1-b725-f4694cc7b952")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0185")
 					(unit 1)
@@ -16576,7 +16886,7 @@
 			(uuid "5e87560e-0232-4286-87b0-ac8da9d7311e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "JP8")
 					(unit 1)
@@ -16654,7 +16964,7 @@
 			(uuid "21919f67-651e-485d-95f4-4b29a2c09127")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0147")
 					(unit 1)
@@ -16744,7 +17054,7 @@
 			(uuid "315a1ddb-9766-4115-8beb-32af57fe3760")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R45")
 					(unit 1)
@@ -16822,7 +17132,7 @@
 			(uuid "3193c0ee-f577-4e38-9c1b-a67cde859d6e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0153")
 					(unit 1)
@@ -16925,7 +17235,7 @@
 			(uuid "214bd734-cd2f-4ae7-9fbd-cf869af5a39b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R71")
 					(unit 1)
@@ -17003,7 +17313,7 @@
 			(uuid "485cc1fe-5780-4a94-8696-569b2edbefbd")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR062")
 					(unit 1)
@@ -17013,7 +17323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 190.5 0)
+		(at 158.75 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17023,7 +17333,7 @@
 		(dnp no)
 		(uuid "3aa577d8-ad89-41c2-8c84-67db630a5dc2")
 		(property "Reference" "#PWR0228"
-			(at 144.78 196.85 0)
+			(at 158.75 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17034,7 +17344,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 194.31 0)
+			(at 158.75 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17044,7 +17354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 190.5 0)
+			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17055,7 +17365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 190.5 0)
+			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17066,7 +17376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 190.5 0)
+			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17080,7 +17390,7 @@
 			(uuid "b854708e-01b0-4463-90d3-6617736dd01a")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0228")
 					(unit 1)
@@ -17158,7 +17468,7 @@
 			(uuid "d04c8e26-73d5-4060-86ce-ef73985d5fd8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR083")
 					(unit 1)
@@ -17320,7 +17630,7 @@
 			(uuid "ac3e8cda-d721-42af-85d6-2e0514e09030")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U46")
 					(unit 1)
@@ -17397,9 +17707,87 @@
 			(uuid "36e5a408-48c6-4d71-b3b4-dcbbdd915d19")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 168.91 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f643e54-942b-4e2a-a279-37d9d1c0efef")
+		(property "Reference" "H4"
+			(at 167.132 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 167.132 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 168.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 168.91 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5304c5ac-16ec-44a6-9910-a5f5e0069196")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17501,7 +17889,7 @@
 			(uuid "12e45703-3f13-458a-9a86-676a0b4a05f5")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R105")
 					(unit 1)
@@ -17580,7 +17968,7 @@
 			(uuid "d7907c95-d497-4e1b-b910-4f53d991f7fb")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0184")
 					(unit 1)
@@ -17657,7 +18045,7 @@
 			(uuid "1a771f0f-a22d-4f85-a23b-e3dd1d69a958")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0164")
 					(unit 1)
@@ -17747,7 +18135,7 @@
 			(uuid "50813ecb-dc72-4b8d-ba3a-afb3379b59d5")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R46")
 					(unit 1)
@@ -17825,7 +18213,7 @@
 			(uuid "4ae4e959-0f80-4a11-8d20-d2e634ae6be0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0178")
 					(unit 1)
@@ -17929,7 +18317,7 @@
 			(uuid "4a2e63c7-e84b-49df-ab40-676c184786de")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R109")
 					(unit 1)
@@ -18007,7 +18395,7 @@
 			(uuid "085d59df-c7b9-4a2c-bda1-ab7d480afa43")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0355")
 					(unit 1)
@@ -18110,7 +18498,7 @@
 			(uuid "91d95a9b-2727-492e-a436-b396c55cba95")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R127")
 					(unit 1)
@@ -18213,7 +18601,7 @@
 			(uuid "2898e5d3-2c56-438c-9caa-4304a3ade7a6")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "C55")
 					(unit 1)
@@ -18292,7 +18680,7 @@
 			(uuid "36850b7a-3ca2-4b16-b7d6-6e901373ee23")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0354")
 					(unit 1)
@@ -18396,7 +18784,7 @@
 			(uuid "da10365b-e52c-4322-8e5c-d2aff7441f43")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R106")
 					(unit 1)
@@ -18474,7 +18862,7 @@
 			(uuid "9d357d51-3912-4fe8-88af-73be14fe7f64")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0152")
 					(unit 1)
@@ -18484,7 +18872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 191.77 0)
+		(at 120.65 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18494,7 +18882,7 @@
 		(dnp no)
 		(uuid "5861939c-292a-4c8e-b001-7675d4580fc3")
 		(property "Reference" "#PWR0263"
-			(at 123.19 198.12 0)
+			(at 120.65 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18505,7 +18893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 195.834 0)
+			(at 120.65 197.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18515,7 +18903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 191.77 0)
+			(at 120.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18526,7 +18914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 191.77 0)
+			(at 120.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18537,7 +18925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 191.77 0)
+			(at 120.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18551,7 +18939,7 @@
 			(uuid "bc32665b-a520-4671-a0fc-eeed4c1f671b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0263")
 					(unit 1)
@@ -18629,7 +19017,7 @@
 			(uuid "fed70cfb-536f-4050-afcc-9a0b4fd6b031")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0150")
 					(unit 1)
@@ -18708,7 +19096,7 @@
 			(uuid "4fa6f6b1-994e-4789-bbf2-63ff5ac1f77f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR096")
 					(unit 1)
@@ -18811,7 +19199,7 @@
 			(uuid "5effa907-5466-450d-a08d-f5ae462e5e34")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R82")
 					(unit 1)
@@ -18901,7 +19289,7 @@
 			(uuid "76e1fc8e-4c04-4cd7-83d6-252deea949b7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R47")
 					(unit 1)
@@ -19002,7 +19390,7 @@
 			(uuid "c0bd4dc8-fe25-4e2e-9288-22dba6b4bec7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J8")
 					(unit 1)
@@ -19079,7 +19467,7 @@
 			(uuid "08ea17d1-515d-4b63-a204-4cbf796d182d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0225")
 					(unit 1)
@@ -19194,7 +19582,7 @@
 			(uuid "22094e0a-8d52-4c91-936b-195cd224554c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R122")
 					(unit 1)
@@ -19284,7 +19672,7 @@
 			(uuid "a3915d11-31fc-4b9f-814e-62e671c656af")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R43")
 					(unit 1)
@@ -19398,7 +19786,7 @@
 			(uuid "b4dafce9-d1bf-4155-962d-d952b3654789")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R126")
 					(unit 1)
@@ -19408,7 +19796,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 31.75 109.22 0)
+		(at 31.75 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19418,7 +19806,7 @@
 		(dnp no)
 		(uuid "675aff65-4a3c-4d20-a7fc-a6b3c1333b6b")
 		(property "Reference" "SW7"
-			(at 37.338 105.918 0)
+			(at 37.338 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19428,7 +19816,7 @@
 			)
 		)
 		(property "Value" "EVQPUL02K"
-			(at 26.416 105.664 0)
+			(at 26.416 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19438,7 +19826,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
-			(at 31.75 109.22 0)
+			(at 31.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19449,7 +19837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 109.22 0)
+			(at 31.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19460,7 +19848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 109.22 0)
+			(at 31.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19471,7 +19859,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 31.75 109.22 0)
+			(at 31.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19488,7 +19876,7 @@
 			(uuid "ac466d85-daf7-4249-b897-152b6a77e6f9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "SW7")
 					(unit 1)
@@ -19591,7 +19979,7 @@
 			(uuid "bb57f102-b622-436a-aea9-4d1339c761c7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R74")
 					(unit 1)
@@ -19669,7 +20057,7 @@
 			(uuid "556f640a-417b-4a03-8ce5-2e5eecadaff8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0163")
 					(unit 1)
@@ -19746,7 +20134,7 @@
 			(uuid "14f3d33a-a669-42e9-a3ba-8a6881025052")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0224")
 					(unit 1)
@@ -19850,7 +20238,7 @@
 			(uuid "ea33a081-bd21-4d8f-b38b-2af404b211a1")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R142")
 					(unit 1)
@@ -19927,7 +20315,7 @@
 			(uuid "e4ebd1dd-d258-4af2-b261-f7ca144f4246")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0154")
 					(unit 1)
@@ -19937,7 +20325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 139.7 180)
+		(at 40.64 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19947,7 +20335,7 @@
 		(dnp no)
 		(uuid "751f4841-4e36-4e5f-9a50-68925b23c247")
 		(property "Reference" "#PWR0132"
-			(at 40.64 133.35 0)
+			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19958,7 +20346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 134.62 90)
+			(at 40.64 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19968,7 +20356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 139.7 0)
+			(at 40.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19979,7 +20367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 139.7 0)
+			(at 40.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19990,7 +20378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 139.7 0)
+			(at 40.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20004,7 +20392,7 @@
 			(uuid "25253ee8-b13a-47c3-b27b-07a8e308dab1")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0132")
 					(unit 1)
@@ -20097,7 +20485,7 @@
 			(uuid "57d566c4-5b46-4fe3-a969-b1cdb2f5c2ba")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "D2")
 					(unit 1)
@@ -20175,7 +20563,7 @@
 			(uuid "00a4eecc-967b-490f-99f5-e33aaced52a9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0159")
 					(unit 1)
@@ -20185,7 +20573,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 38.1 139.7 0)
+		(at 38.1 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20195,7 +20583,7 @@
 		(dnp no)
 		(uuid "7bccd95d-650a-4ae9-8d21-85ccb671ecef")
 		(property "Reference" "#PWR086"
-			(at 38.1 143.51 0)
+			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20206,7 +20594,7 @@
 			)
 		)
 		(property "Value" "3V3_Pi_2"
-			(at 38.1 137.16 90)
+			(at 38.1 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20217,7 +20605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 139.7 0)
+			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20228,7 +20616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 139.7 0)
+			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20239,7 +20627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 139.7 0)
+			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20253,7 +20641,7 @@
 			(uuid "05fab12e-8625-4449-8423-de9d052de757")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR086")
 					(unit 1)
@@ -20263,7 +20651,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 29.21 167.64 90)
+		(at 29.21 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20273,7 +20661,7 @@
 		(dnp no)
 		(uuid "80a084bd-232d-4e53-ab9c-18f81b2bc785")
 		(property "Reference" "R39"
-			(at 33.528 165.862 90)
+			(at 33.528 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20284,7 +20672,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 27.94 165.354 90)
+			(at 27.94 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20295,7 +20683,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 29.21 167.64 0)
+			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20306,7 +20694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 167.64 0)
+			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20317,7 +20705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 167.64 0)
+			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20328,7 +20716,7 @@
 			)
 		)
 		(property "LCSC Part" "C25794"
-			(at 29.21 164.846 0)
+			(at 29.21 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20339,7 +20727,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 29.21 167.64 90)
+			(at 29.21 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20356,7 +20744,7 @@
 			(uuid "5109e99c-5214-46ae-a1e2-387a3105f22f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R39")
 					(unit 1)
@@ -20433,7 +20821,7 @@
 			(uuid "c1f5cd93-672b-4032-a1e2-1a14cbc65951")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0175")
 					(unit 1)
@@ -20443,7 +20831,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 41.91 109.22 0)
+		(at 41.91 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20454,7 +20842,7 @@
 		(fields_autoplaced yes)
 		(uuid "884e60ba-a5c0-4a0a-9b1f-abeedf6070d1")
 		(property "Reference" "J22"
-			(at 44.45 107.9499 0)
+			(at 44.45 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20465,7 +20853,7 @@
 			)
 		)
 		(property "Value" "SW"
-			(at 44.45 110.4899 0)
+			(at 44.45 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20476,7 +20864,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
-			(at 41.91 109.22 0)
+			(at 41.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20487,7 +20875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 109.22 0)
+			(at 41.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20498,7 +20886,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 109.22 0)
+			(at 41.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20512,7 +20900,7 @@
 			(uuid "0a484a59-057c-4fe5-bcf5-21f2c14951e9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J22")
 					(unit 1)
@@ -20591,7 +20979,7 @@
 			(uuid "1b7401f1-f055-43d3-883f-5ad17b95b7f0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR05")
 					(unit 1)
@@ -20668,7 +21056,7 @@
 			(uuid "97b1c350-aac8-464e-a60a-872eb5a140d9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0165")
 					(unit 1)
@@ -20678,7 +21066,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 187.96 0)
+		(at 158.75 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20688,7 +21076,7 @@
 		(dnp no)
 		(uuid "8b28b71f-933f-4f90-982f-3ea5bb523659")
 		(property "Reference" "H2"
-			(at 143.002 180.848 0)
+			(at 156.972 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20699,7 +21087,7 @@
 			)
 		)
 		(property "Value" "MH"
-			(at 143.002 183.388 0)
+			(at 156.972 179.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20710,7 +21098,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 144.78 187.96 0)
+			(at 158.75 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20721,7 +21109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 187.96 0)
+			(at 158.75 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20732,7 +21120,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 187.96 0)
+			(at 158.75 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20746,7 +21134,7 @@
 			(uuid "355c6f72-44f2-4b71-b073-bfb1a94d4ed1")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "H2")
 					(unit 1)
@@ -20847,7 +21235,7 @@
 			(uuid "a8d96e2d-6cbf-4eab-8998-775743eb0e8a")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "JP11")
 					(unit 1)
@@ -20951,7 +21339,7 @@
 			(uuid "262be62f-523d-4403-9cfd-f28e95f26a24")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R107")
 					(unit 1)
@@ -20961,7 +21349,7 @@
 	)
 	(symbol
 		(lib_id "esd_small:TPD4E02B04DQA")
-		(at 121.92 184.15 0)
+		(at 119.38 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20971,7 +21359,7 @@
 		(dnp no)
 		(uuid "8d64ae4e-0b31-4198-9854-e302f11434f1")
 		(property "Reference" "U21"
-			(at 119.634 177.038 0)
+			(at 113.284 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20982,7 +21370,7 @@
 			)
 		)
 		(property "Value" "TPAZ1043-04F"
-			(at 125.73 192.786 90)
+			(at 123.19 194.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20993,7 +21381,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 129.54 184.15 0)
+			(at 127 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21005,7 +21393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 184.15 0)
+			(at 121.92 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21016,7 +21404,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
-			(at 121.92 184.15 0)
+			(at 119.38 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21027,7 +21415,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 121.92 184.15 0)
+			(at 119.38 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21068,7 +21456,7 @@
 			(uuid "da6300f1-7002-464e-9c65-11db2c0d4a88")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U21")
 					(unit 1)
@@ -21146,7 +21534,7 @@
 			(uuid "f766d50d-a909-4283-b727-6400bb9f6236")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0148")
 					(unit 1)
@@ -21223,7 +21611,7 @@
 			(uuid "9916544d-dcf2-42c1-af2e-225291dbf522")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR040")
 					(unit 1)
@@ -21300,7 +21688,7 @@
 			(uuid "cb4ca771-0725-453a-be69-b607c97e2689")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0212")
 					(unit 1)
@@ -21377,7 +21765,7 @@
 			(uuid "0378b6ca-3565-4363-a906-19f3c68ee22e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0166")
 					(unit 1)
@@ -21482,7 +21870,7 @@
 			(uuid "9dd41a3d-7f9c-4f98-8c3d-f185ef19038b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R141")
 					(unit 1)
@@ -21559,7 +21947,7 @@
 			(uuid "08ad7796-958b-4b83-ad3c-7a83a8e7a1eb")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0216")
 					(unit 1)
@@ -21638,7 +22026,7 @@
 			(uuid "2b9cfa09-fc7b-4e9e-a0ca-f5e262242bc6")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0134")
 					(unit 1)
@@ -21717,7 +22105,7 @@
 			(uuid "5c4d70c5-6e38-4dd2-abba-46956420901c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0156")
 					(unit 1)
@@ -21818,7 +22206,7 @@
 			(uuid "f33b3a60-ba0f-4fa8-a7a6-4c653433a15d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "JP9")
 					(unit 1)
@@ -21897,7 +22285,7 @@
 			(uuid "95508bda-2d61-42f2-9941-d4d142aa50fe")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0135")
 					(unit 1)
@@ -21907,7 +22295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 167.64 270)
+		(at 26.67 151.13 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -21919,7 +22307,7 @@
 		(fields_autoplaced yes)
 		(uuid "a44f0a9a-2120-474e-9d47-b8c7281f1ee4")
 		(property "Reference" "#PWR0136"
-			(at 20.32 167.64 0)
+			(at 20.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21930,7 +22318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 167.6399 90)
+			(at 22.86 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21941,7 +22329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 167.64 0)
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21952,7 +22340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 167.64 0)
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21963,7 +22351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 167.64 0)
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21977,7 +22365,7 @@
 			(uuid "4fd6461b-909e-4159-a39f-87f4da5c0f70")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0136")
 					(unit 1)
@@ -22081,7 +22469,7 @@
 			(uuid "6b7f4410-d0cd-437b-b4b0-8f353676ee6f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R7")
 					(unit 1)
@@ -22091,7 +22479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 139.7 180)
+		(at 35.56 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22101,7 +22489,7 @@
 		(dnp no)
 		(uuid "a88ad989-5cfb-499d-8c06-87bb090e7f63")
 		(property "Reference" "#PWR042"
-			(at 35.56 133.35 0)
+			(at 35.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22112,7 +22500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 134.62 90)
+			(at 35.56 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22122,7 +22510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 139.7 0)
+			(at 35.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22133,7 +22521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 139.7 0)
+			(at 35.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22144,7 +22532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 139.7 0)
+			(at 35.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22158,7 +22546,7 @@
 			(uuid "db629e17-576f-4d07-8743-a44979a433ab")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR042")
 					(unit 1)
@@ -22261,7 +22649,7 @@
 			(uuid "51282221-9918-491b-89c2-22d193944de4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "C57")
 					(unit 1)
@@ -22340,7 +22728,7 @@
 			(uuid "79afaa98-2ae8-4f57-a565-60b6553cf761")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR010")
 					(unit 1)
@@ -22417,7 +22805,7 @@
 			(uuid "ba5abe09-d440-4b84-939e-f06ba814ce00")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0176")
 					(unit 1)
@@ -22521,7 +22909,7 @@
 			(uuid "175f42df-74e4-4b28-a92e-6f751fbec6da")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R129")
 					(unit 1)
@@ -22531,7 +22919,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 25.4 135.89 0)
+		(at 25.4 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22542,7 +22930,7 @@
 		(dnp no)
 		(uuid "b086e4e0-1c32-4dc5-841a-ae5b8ddc592b")
 		(property "Reference" "#PWR0238"
-			(at 25.4 139.7 0)
+			(at 25.4 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22553,7 +22941,7 @@
 			)
 		)
 		(property "Value" "3V3_Pi_2"
-			(at 30.48 131.572 0)
+			(at 30.48 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22564,7 +22952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 135.89 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22575,7 +22963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 135.89 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22586,7 +22974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 135.89 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22600,7 +22988,7 @@
 			(uuid "c7940455-66f1-44aa-a714-d30f8c80f561")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0238")
 					(unit 1)
@@ -22678,7 +23066,7 @@
 			(uuid "751854a1-abb1-45fb-9bb2-a83da3126e59")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0211")
 					(unit 1)
@@ -22755,7 +23143,7 @@
 			(uuid "355dfe55-bdc5-45f6-8443-541dd2608aa2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0226")
 					(unit 1)
@@ -22832,7 +23220,7 @@
 			(uuid "36c15550-33fd-431d-a999-d0c55c5ab10d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0221")
 					(unit 1)
@@ -22911,7 +23299,7 @@
 			(uuid "d91d7ea9-592a-432e-b7e2-57d081f506b7")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0141")
 					(unit 1)
@@ -22988,7 +23376,7 @@
 			(uuid "232ee2cc-c622-4ac3-8a5b-8d1a3cc71841")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0168")
 					(unit 1)
@@ -23089,9 +23477,86 @@
 			(uuid "72969dac-9e7b-48b6-8f4a-ebc2159eac33")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8fd6d5a-6078-4bca-b171-650465c293af")
+		(property "Reference" "#PWR0371"
+			(at 142.24 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 197.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45799e1b-b90b-4960-ba79-f9b12677633b")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "#PWR0371")
 					(unit 1)
 				)
 			)
@@ -23267,7 +23732,7 @@
 			(uuid "b6d86f4f-5c75-4331-891e-ef3089c4aecf")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J5")
 					(unit 1)
@@ -23277,7 +23742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 190.5 0)
+		(at 153.67 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23287,7 +23752,7 @@
 		(dnp no)
 		(uuid "bed92d7d-52c6-4646-9a76-437239486188")
 		(property "Reference" "#PWR0227"
-			(at 138.43 196.85 0)
+			(at 153.67 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23298,7 +23763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 194.31 0)
+			(at 153.67 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23308,7 +23773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 190.5 0)
+			(at 153.67 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23319,7 +23784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 190.5 0)
+			(at 153.67 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23330,7 +23795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 190.5 0)
+			(at 153.67 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23344,7 +23809,7 @@
 			(uuid "7cfaca35-87c9-4c7b-ab64-f98990ba4901")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0227")
 					(unit 1)
@@ -23354,7 +23819,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 140.97 0)
+		(at 25.4 124.46 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23365,7 +23830,7 @@
 		(dnp no)
 		(uuid "bffd3a43-6bb4-4bb9-acb4-59d4eb05774f")
 		(property "Reference" "#PWR0239"
-			(at 25.4 147.32 0)
+			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23376,7 +23841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 144.78 0)
+			(at 25.4 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23386,7 +23851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 140.97 0)
+			(at 25.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23397,7 +23862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 140.97 0)
+			(at 25.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23408,7 +23873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 140.97 0)
+			(at 25.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23422,7 +23887,7 @@
 			(uuid "0681e672-4f93-4f13-81e1-3d8fd36d1803")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0239")
 					(unit 1)
@@ -23501,7 +23966,7 @@
 			(uuid "b73777c7-3240-4e15-b697-2fcc51fe2971")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR070")
 					(unit 1)
@@ -23580,7 +24045,7 @@
 			(uuid "f6d0e0b7-8efa-4caa-b815-9830dbf0303b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0187")
 					(unit 1)
@@ -23659,7 +24124,7 @@
 			(uuid "2866e7cd-4a9e-4212-85f0-4bde7b41ad5e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0283")
 					(unit 1)
@@ -23669,7 +24134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 190.5 0)
+		(at 173.99 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23679,7 +24144,7 @@
 		(dnp no)
 		(uuid "c66ba8f6-8e32-4aea-a780-7b09e2eed251")
 		(property "Reference" "#PWR0372"
-			(at 168.91 196.85 0)
+			(at 173.99 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23690,7 +24155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 194.31 0)
+			(at 173.99 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23700,7 +24165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 190.5 0)
+			(at 173.99 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23711,7 +24176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 190.5 0)
+			(at 173.99 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23722,7 +24187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 190.5 0)
+			(at 173.99 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23736,7 +24201,7 @@
 			(uuid "a45d27d4-6d23-4dda-8769-37b857f2a7fa")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0372")
 					(unit 1)
@@ -23817,7 +24282,7 @@
 			(uuid "3599ca24-7b42-4d04-b3e8-2e01fcfb7b76")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R52")
 					(unit 1)
@@ -23937,7 +24402,7 @@
 			(uuid "2f48fc30-aae2-4255-8c6e-f9ce4b12a7c0")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U33")
 					(unit 1)
@@ -24038,7 +24503,7 @@
 			(uuid "f10486c4-0b78-4820-bf6b-2410c2a4231b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J7")
 					(unit 1)
@@ -24201,7 +24666,7 @@
 			(uuid "c4cb3d0d-77ed-42f8-9d25-626fed857aa3")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U4")
 					(unit 1)
@@ -24316,7 +24781,7 @@
 			(uuid "d9aafe7d-cc9a-4bd7-9844-e380d5cd978b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R125")
 					(unit 1)
@@ -24326,7 +24791,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 138.43 187.96 0)
+		(at 153.67 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24336,7 +24801,7 @@
 		(dnp no)
 		(uuid "d35721fa-671d-4f2d-98c6-cf4eb5980771")
 		(property "Reference" "H1"
-			(at 136.652 180.848 0)
+			(at 151.892 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24347,7 +24812,7 @@
 			)
 		)
 		(property "Value" "MH"
-			(at 136.652 183.388 0)
+			(at 151.892 179.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24358,7 +24823,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 138.43 187.96 0)
+			(at 153.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24369,7 +24834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 187.96 0)
+			(at 153.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24380,7 +24845,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 138.43 187.96 0)
+			(at 153.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24394,7 +24859,7 @@
 			(uuid "ce65106f-3c1c-428e-88c7-ed8c66077903")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "H1")
 					(unit 1)
@@ -24495,7 +24960,7 @@
 			(uuid "7e4452b6-48d3-4e78-96e5-35d72c788a87")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "JP10")
 					(unit 1)
@@ -24598,7 +25063,7 @@
 			(uuid "510e313a-6b2f-4de1-9f6c-92c96a6e433b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R80")
 					(unit 1)
@@ -24768,9 +25233,87 @@
 			(uuid "d3373326-a938-4462-a9e5-e209c90dd966")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6116998-e426-4a2b-80be-def3e82fdf12")
+		(property "Reference" "H3"
+			(at 162.052 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 162.052 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 163.83 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7c12e15-e2d2-47fc-8239-310772cc2f4e")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -24846,7 +25389,7 @@
 			(uuid "aa71c9db-3a35-40b9-9d90-eec439ddcc8d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0312")
 					(unit 1)
@@ -25039,7 +25582,7 @@
 			(uuid "dc644a69-e904-4b28-81a7-22316c6d7ee8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "J3")
 					(unit 1)
@@ -25049,7 +25592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 109.22 270)
+		(at 26.67 99.06 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -25061,7 +25604,7 @@
 		(fields_autoplaced yes)
 		(uuid "db871bb2-f47a-47e6-84c6-32de8e646503")
 		(property "Reference" "#PWR0356"
-			(at 20.32 109.22 0)
+			(at 20.32 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25072,7 +25615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 109.2199 90)
+			(at 22.86 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25083,7 +25626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 109.22 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25094,7 +25637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 109.22 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25105,7 +25648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 109.22 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25119,7 +25662,7 @@
 			(uuid "ef3c17ca-3271-446b-b72c-91f3c2338508")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0356")
 					(unit 1)
@@ -25224,7 +25767,7 @@
 			(uuid "989d7087-4b97-41a4-ba96-b446b49d76b4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R139")
 					(unit 1)
@@ -25234,7 +25777,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 25.4 138.43 0)
+		(at 25.4 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25245,7 +25788,7 @@
 		(dnp no)
 		(uuid "dfae0f11-84e9-48bb-a95f-8191d81ea43f")
 		(property "Reference" "C70"
-			(at 24.13 135.636 0)
+			(at 24.13 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25256,7 +25799,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 23.876 140.462 0)
+			(at 23.876 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25267,7 +25810,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 25.4 138.43 0)
+			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25278,7 +25821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 138.43 0)
+			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25289,7 +25832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 138.43 0)
+			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25300,7 +25843,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 25.4 138.43 0)
+			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25311,7 +25854,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 25.4 138.43 0)
+			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25328,7 +25871,7 @@
 			(uuid "1fb6cc26-60a8-460c-8173-2132202d845d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "C70")
 					(unit 1)
@@ -25338,7 +25881,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 168.91 187.96 0)
+		(at 173.99 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25348,7 +25891,7 @@
 		(dnp no)
 		(uuid "e1bbbee2-8a71-4f6c-a45d-d9168e9a5d27")
 		(property "Reference" "H5"
-			(at 167.894 180.848 0)
+			(at 172.974 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25359,7 +25902,7 @@
 			)
 		)
 		(property "Value" "MH"
-			(at 167.64 183.388 0)
+			(at 172.72 179.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25370,7 +25913,7 @@
 			)
 		)
 		(property "Footprint" "top_board_pizero:MountingHole_2.5mm_Pad-paste"
-			(at 168.91 187.96 0)
+			(at 173.99 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25381,7 +25924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 187.96 0)
+			(at 173.99 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25392,7 +25935,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 168.91 187.96 0)
+			(at 173.99 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25403,7 +25946,18 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 168.91 187.96 0)
+			(at 173.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2916365"
+			(at 173.99 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25417,7 +25971,7 @@
 			(uuid "413fd892-21d4-4001-89d3-048081738df9")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "H5")
 					(unit 1)
@@ -25494,7 +26048,7 @@
 			(uuid "a5706fa3-d378-46a0-a81d-eaadad9fc1f2")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0217")
 					(unit 1)
@@ -25597,7 +26151,7 @@
 			(uuid "5c6810d3-da81-4feb-82cc-89b6f7a33f2f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R79")
 					(unit 1)
@@ -25711,7 +26265,7 @@
 			(uuid "f9797966-e33e-42e1-9b80-01949f3d0b2b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R123")
 					(unit 1)
@@ -25801,7 +26355,7 @@
 			(uuid "7e4ebea4-d51d-488f-8837-58ed6015051d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R44")
 					(unit 1)
@@ -25880,7 +26434,7 @@
 			(uuid "f75b7bdf-3e61-4f0e-8f2c-5369378bea9e")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0140")
 					(unit 1)
@@ -25981,7 +26535,7 @@
 			(uuid "5e4c8a75-5a28-473a-966d-c09ef44ed316")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "JP12")
 					(unit 1)
@@ -26151,9 +26705,86 @@
 			(uuid "1794ddd8-0b62-4002-9662-a57880d04e8d")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edc7fc70-a1da-4ae4-b144-9c551a1d1b27")
+		(property "Reference" "#PWR0368"
+			(at 163.83 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6ebc1ce-3e81-47e0-a56d-c56aaf23c405")
+		)
+		(instances
+			(project "top_board_zero"
+				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
+					(reference "#PWR0368")
 					(unit 1)
 				)
 			)
@@ -26241,7 +26872,7 @@
 			(uuid "755032e2-3b85-4e6c-a202-cd6d2bfaaa9c")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R48")
 					(unit 1)
@@ -26319,7 +26950,7 @@
 			(uuid "f4f08ae0-34eb-46bb-b6d2-d6796bbd7af8")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR097")
 					(unit 1)
@@ -26397,7 +27028,7 @@
 			(uuid "991737bc-3ddb-4df0-aab6-834008fe5e11")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0151")
 					(unit 1)
@@ -26474,7 +27105,7 @@
 			(uuid "bae12af2-a336-4848-8afc-b8d81caa23ac")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0213")
 					(unit 1)
@@ -26552,7 +27183,7 @@
 			(uuid "794ea239-6c2b-447a-9f9f-43470b1cad5b")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0139")
 					(unit 1)
@@ -26656,7 +27287,7 @@
 			(uuid "03365697-e4ff-42b6-a4f6-4a5a6b17f88f")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "C61")
 					(unit 1)
@@ -26759,7 +27390,7 @@
 			(uuid "10d71026-16dc-4bac-aa22-2602916ab229")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "C19")
 					(unit 1)
@@ -26863,7 +27494,7 @@
 			(uuid "74fd7083-7bf5-46e1-9500-b416defde634")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "R72")
 					(unit 1)
@@ -26940,7 +27571,7 @@
 			(uuid "9aff0276-1cd7-4c35-9924-8e0ab9fb8ea4")
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(reference "#PWR0171")
 					(unit 1)
@@ -26986,7 +27617,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "3")
 				)
@@ -27031,7 +27662,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "7")
 				)
@@ -27076,7 +27707,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "4")
 				)
@@ -27121,7 +27752,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "2")
 				)
@@ -27166,7 +27797,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "6")
 				)
@@ -27211,7 +27842,7 @@
 			)
 		)
 		(instances
-			(project "top_board_pizero"
+			(project "top_board_zero"
 				(path "/e52ba1d2-b349-4f22-b615-941f863c8a47"
 					(page "5")
 				)
