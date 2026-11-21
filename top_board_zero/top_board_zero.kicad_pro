@@ -96,6 +96,26 @@
         [
           "hole_to_hole|176422038|61890987|2eab2d96-4950-4bbd-96c8-1f07d84530bc|7ec09ffd-1921-4c7b-9856-92263d3f8a10",
           ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|102860000|120430000|d1990896-a17f-41a3-9ed8-28d3863da061|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|237890000|108299000|306ecf9d-e57f-48df-b02d-baa4305c8640|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|43410000|32640000|c2588e9d-05e9-48d1-ba12-5a983a23cb57|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|49280002|80780003|2cb175fb-7c42-4b3f-8f99-dd7a1e87822a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|54350000|130740000|df9b3c0d-16f9-4400-849d-ec6114250cfc|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -758,7 +778,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "tp23",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -814,7 +834,7 @@
         "uuid": "e52ba1d2-b349-4f22-b615-941f863c8a47"
       }
     ],
-    "used_designators": "#PWR157,#PWR163,#PWR208,#PWR210,#PWR243,#PWR291-294,#PWR296-297,#PWR299,#PWR301-371,C75-84,D1,H3-4,J12-24,JP5,JP8-13,R122-129,R131-144,RN1,SW4,SW7,U41-44,U46-48",
+    "used_designators": "#PWR157,#PWR163,#PWR208,#PWR210,#PWR243,#PWR290-294,#PWR296-297,#PWR299,#PWR301-371,#PWR373-377,C75-86,D1,H3-4,J12-24,JP5,JP8-14,R122-129,R131-146,RN1,SW4,SW7,TP24,U41-44,U46-48",
     "variants": []
   },
   "sheets": [

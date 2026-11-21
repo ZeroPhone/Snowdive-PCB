@@ -9780,7 +9780,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0d2c5b25-6525-436b-9550-5cefc3f0bfb1")
 		(property "Reference" "TP3"
@@ -10765,9 +10765,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1ef481c9-e84f-451f-95de-5689b397f221")
 		(property "Reference" "J19"
@@ -14812,9 +14812,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7deea724-1987-4091-a9c4-389cedc718dd")
 		(property "Reference" "J24"
@@ -16646,7 +16646,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "af6533ff-2429-4dbc-8545-e6313adf66f6")
 		(property "Reference" "TP29"
@@ -17550,7 +17550,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bfba79ae-2394-4145-9040-aa0c3711921f")
 		(property "Reference" "IC2"
@@ -18975,7 +18975,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e1a09fce-e97c-4bad-97e4-c4a70ec2aa21")
 		(property "Reference" "TP28"

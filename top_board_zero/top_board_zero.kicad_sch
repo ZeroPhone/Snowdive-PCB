@@ -8753,7 +8753,7 @@
 	)
 	(text "optional I2C pullups\njust in case"
 		(exclude_from_sim no)
-		(at 85.344 143.002 0)
+		(at 82.804 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8804,7 +8804,7 @@
 	)
 	(text "CS swap (display/TPM)"
 		(exclude_from_sim no)
-		(at 82.042 113.538 0)
+		(at 79.502 107.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8926,7 +8926,7 @@
 	)
 	(text "jumper for\nstandalone Npxl\ncontrol"
 		(exclude_from_sim no)
-		(at 72.644 172.72 0)
+		(at 29.464 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8934,9 +8934,19 @@
 		)
 		(uuid "c1c0a888-d5b2-42bf-a7e9-4f8bf1318ea5")
 	)
+	(text "FFC connectors"
+		(exclude_from_sim no)
+		(at 58.42 172.212 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "c38200f2-da84-4347-a9cf-d577bf730f63")
+	)
 	(text "IO INT pullups"
 		(exclude_from_sim no)
-		(at 81.788 159.512 0)
+		(at 79.248 153.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8986,7 +8996,7 @@
 	)
 	(text "SPI series resistors"
 		(exclude_from_sim no)
-		(at 82.042 129.54 0)
+		(at 79.502 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9068,7 +9078,7 @@
 		(uuid "17f2a7a2-5a77-46bb-b6d2-f2e9317a74e8")
 	)
 	(junction
-		(at 73.66 151.13)
+		(at 71.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "258cba8b-2a1d-46f9-b41d-a844927af7da")
@@ -9140,7 +9150,7 @@
 		(uuid "5b84b18f-787c-4112-be68-b0fe494debc7")
 	)
 	(junction
-		(at 72.39 135.89)
+		(at 69.85 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62f1e466-7a76-4105-b18f-2f0302db2241")
@@ -9586,7 +9596,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 134.62) (xy 72.39 135.89)
+			(xy 69.85 128.27) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9686,7 +9696,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 153.67) (xy 78.74 153.67)
+			(xy 78.74 147.32) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9756,7 +9766,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 135.89) (xy 72.39 135.89)
+			(xy 68.58 129.54) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9926,7 +9936,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 135.89) (xy 72.39 137.16)
+			(xy 69.85 129.54) (xy 69.85 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10386,7 +10396,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 151.13) (xy 73.66 153.67)
+			(xy 71.12 144.78) (xy 71.12 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10656,7 +10666,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 151.13) (xy 73.66 148.59)
+			(xy 71.12 144.78) (xy 71.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10666,7 +10676,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 78.74 148.59)
+			(xy 78.74 142.24) (xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10916,7 +10926,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 151.13) (xy 73.66 151.13)
+			(xy 69.85 144.78) (xy 71.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11086,7 +11096,7 @@
 	)
 	(global_label "EX-B_INT"
 		(shape input)
-		(at 81.28 153.67 0)
+		(at 78.74 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11096,7 +11106,7 @@
 		)
 		(uuid "01acdb8a-776f-4f6a-a5a7-62d6e7ab8d40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3366 153.67 0)
+			(at 90.7966 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11686,7 +11696,7 @@
 	)
 	(global_label "EX-A_INT"
 		(shape input)
-		(at 81.28 148.59 0)
+		(at 78.74 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11696,7 +11706,7 @@
 		)
 		(uuid "281b5554-9e2e-4d8d-8a3d-cbb411328224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1552 148.59 0)
+			(at 90.6152 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11926,7 +11936,7 @@
 	)
 	(global_label "DISP_SCLK"
 		(shape input)
-		(at 83.82 123.19 0)
+		(at 81.28 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11936,7 +11946,7 @@
 		)
 		(uuid "35214a78-4d76-4a17-9375-b42dece7330b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 123.19 0)
+			(at 94.3647 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +12032,7 @@
 	)
 	(global_label "SPI_SI"
 		(shape input)
-		(at 78.74 120.65 180)
+		(at 76.2 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12032,7 +12042,7 @@
 		)
 		(uuid "3bf2638a-943d-4134-a47f-73d4b4c506df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8886 120.65 0)
+			(at 67.3486 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12598,7 +12608,7 @@
 	)
 	(global_label "Npxl"
 		(shape input)
-		(at 77.47 167.64 0)
+		(at 34.29 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12608,7 +12618,7 @@
 		)
 		(uuid "623df833-08b4-4dc0-9c97-f21f378039a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.628 167.64 0)
+			(at 41.448 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12862,7 +12872,7 @@
 	)
 	(global_label "EC_INT"
 		(shape input)
-		(at 67.31 167.64 180)
+		(at 24.13 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12872,7 +12882,7 @@
 		)
 		(uuid "7295a8b6-7a03-4c37-92ad-2c1ef001d8bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0353 167.64 0)
+			(at 14.8553 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13174,7 +13184,7 @@
 	)
 	(global_label "DISP_CS"
 		(shape input)
-		(at 83.82 106.68 0)
+		(at 81.28 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13184,7 +13194,7 @@
 		)
 		(uuid "8a72e22e-f91b-4bf8-86ed-8c164ab2ccc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6066 106.68 0)
+			(at 92.0666 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13198,7 +13208,7 @@
 	)
 	(global_label "SPI_SO"
 		(shape input)
-		(at 78.74 118.11 180)
+		(at 76.2 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13208,7 +13218,7 @@
 		)
 		(uuid "8cd7bbab-2210-42b4-82d5-9701c5a5a756")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1629 118.11 0)
+			(at 66.6229 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +13256,7 @@
 	)
 	(global_label "DISP_SO"
 		(shape input)
-		(at 83.82 118.11 0)
+		(at 81.28 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13256,7 +13266,7 @@
 		)
 		(uuid "8dddc1c1-88df-43df-b926-2aaede20a8c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6671 118.11 0)
+			(at 92.1271 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13270,7 +13280,7 @@
 	)
 	(global_label "CPU_SDA"
 		(shape input)
-		(at 87.63 134.62 0)
+		(at 85.09 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13280,7 +13290,7 @@
 		)
 		(uuid "90757487-fbeb-4b43-882b-37b7a7ea0098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0214 134.62 0)
+			(at 96.4814 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,7 +13520,7 @@
 	)
 	(global_label "CE0"
 		(shape input)
-		(at 78.74 109.22 180)
+		(at 76.2 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13520,7 +13530,7 @@
 		)
 		(uuid "a01219c8-339e-4fc1-87d1-86a517d102f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1263 109.22 0)
+			(at 69.5863 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13918,7 +13928,7 @@
 	)
 	(global_label "TPM_CS"
 		(shape input)
-		(at 83.82 109.22 0)
+		(at 81.28 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13928,7 +13938,7 @@
 		)
 		(uuid "bbd92d81-54ac-443a-af19-6b572a8a343d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9413 109.22 0)
+			(at 91.4013 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14014,7 +14024,7 @@
 	)
 	(global_label "DISP_SI"
 		(shape input)
-		(at 83.82 120.65 0)
+		(at 81.28 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14024,7 +14034,7 @@
 		)
 		(uuid "c2b296a0-38da-4d39-849e-db4ed2a56cb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9414 120.65 0)
+			(at 91.4014 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +14048,7 @@
 	)
 	(global_label "CPU_SCL"
 		(shape input)
-		(at 87.63 137.16 0)
+		(at 85.09 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14048,7 +14058,7 @@
 		)
 		(uuid "c4d7ac85-df56-49ae-96c1-636d8359599d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9609 137.16 0)
+			(at 96.4209 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14518,7 +14528,7 @@
 	)
 	(global_label "CE1"
 		(shape input)
-		(at 78.74 106.68 180)
+		(at 76.2 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14528,7 +14538,7 @@
 		)
 		(uuid "e8ed0455-9327-4436-8c87-f9ff0af42944")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1263 106.68 0)
+			(at 69.5863 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14710,7 +14720,7 @@
 	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 78.74 123.19 180)
+		(at 76.2 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14720,7 +14730,7 @@
 		)
 		(uuid "f1c1a1a1-3619-4882-8f21-c9dbdefae7d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9253 123.19 0)
+			(at 64.3853 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,7 +15329,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 85.09 134.62 90)
+		(at 82.55 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15329,7 +15339,7 @@
 		(dnp no)
 		(uuid "0a5dbbf6-a28f-4116-a3c3-41c069e135a6")
 		(property "Reference" "R128"
-			(at 85.09 137.16 90)
+			(at 82.55 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15351,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 86.36 134.62 90)
+			(at 83.82 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15352,7 +15362,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 134.62 0)
+			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 134.62 0)
+			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15374,7 +15384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 134.62 0)
+			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15385,7 +15395,7 @@
 			)
 		)
 		(property "LCSC Part" "C4109"
-			(at 85.09 134.62 0)
+			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15396,7 +15406,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 85.09 134.62 90)
+			(at 82.55 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15781,7 +15791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 118.11 90)
+		(at 78.74 111.76 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15792,7 +15802,7 @@
 		(dnp no)
 		(uuid "113cbc07-547a-423b-87bb-8b98c45918e2")
 		(property "Reference" "R124"
-			(at 78.994 116.332 90)
+			(at 76.454 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15803,7 +15813,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 83.312 118.11 90)
+			(at 80.772 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15814,7 +15824,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 118.11 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15825,7 +15835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 118.11 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15836,7 +15846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 118.11 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15847,7 +15857,7 @@
 			)
 		)
 		(property "LCSC Part" "C25105"
-			(at 81.28 118.11 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15858,7 +15868,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 81.28 118.11 90)
+			(at 78.74 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +15879,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 81.28 118.11 90)
+			(at 78.74 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,17 +16805,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 77.47 134.62 0)
+		(at 74.93 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "21aa67d5-85ae-46cb-9827-698389a8a57c")
 		(property "Reference" "JP8"
-			(at 73.914 132.334 0)
+			(at 71.374 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16815,7 +16825,7 @@
 			)
 		)
 		(property "Value" "SDA_PU"
-			(at 80.772 132.588 0)
+			(at 78.232 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16825,7 +16835,7 @@
 			)
 		)
 		(property "Footprint" "top_board_pizero:SolderJumper-2_smol_Open"
-			(at 77.47 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16836,7 +16846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16847,7 +16857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16858,7 +16868,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 77.47 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16869,7 +16879,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 77.47 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19477,7 +19487,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 106.68 90)
+		(at 78.74 100.33 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19488,7 +19498,7 @@
 		(dnp no)
 		(uuid "60fdbc4d-7851-43b9-a71a-9a8cbb3e304a")
 		(property "Reference" "R122"
-			(at 78.994 104.902 90)
+			(at 76.454 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19499,7 +19509,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 83.312 106.68 90)
+			(at 80.772 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19510,7 +19520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 106.68 0)
+			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19521,7 +19531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 106.68 0)
+			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19532,7 +19542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 106.68 0)
+			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19543,7 +19553,7 @@
 			)
 		)
 		(property "LCSC Part" "C25105"
-			(at 81.28 106.68 0)
+			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19554,7 +19564,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 81.28 106.68 90)
+			(at 78.74 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19565,7 +19575,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 81.28 106.68 90)
+			(at 78.74 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19682,7 +19692,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 123.19 90)
+		(at 78.74 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19692,7 +19702,7 @@
 		(dnp no)
 		(uuid "653f3624-6d0c-4552-bb87-95fc86dc761c")
 		(property "Reference" "R126"
-			(at 78.994 124.968 90)
+			(at 76.454 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19703,7 +19713,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 83.312 123.19 90)
+			(at 80.772 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19714,7 +19724,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 123.19 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19725,7 +19735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 123.19 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19736,7 +19746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 123.19 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19747,7 +19757,7 @@
 			)
 		)
 		(property "LCSC Part" "C25105"
-			(at 81.28 123.19 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19758,7 +19768,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 81.28 123.19 90)
+			(at 78.74 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19769,7 +19779,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 81.28 123.19 90)
+			(at 78.74 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19886,7 +19896,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 148.59 90)
+		(at 73.66 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19896,7 +19906,7 @@
 		(dnp no)
 		(uuid "6ce00aec-e2d3-4548-8476-83df163c8a54")
 		(property "Reference" "R74"
-			(at 78.232 150.368 90)
+			(at 75.692 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19907,7 +19917,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 81.788 146.812 90)
+			(at 79.248 140.462 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19918,7 +19928,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 148.59 0)
+			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19929,7 +19939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 148.59 0)
+			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19940,7 +19950,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 148.59 0)
+			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19951,7 +19961,7 @@
 			)
 		)
 		(property "LCSC Part" "C25794"
-			(at 76.2 149.86 0)
+			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19962,7 +19972,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 76.2 148.59 90)
+			(at 73.66 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21150,7 +21160,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8c770a82-349e-4f17-9f6f-7f770a58892a")
 		(property "Reference" "JP11"
@@ -21544,7 +21554,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 72.39 151.13 90)
+		(at 69.85 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21554,7 +21564,7 @@
 		(dnp no)
 		(uuid "8fb049f2-d45e-466c-b686-eec3fcd298e4")
 		(property "Reference" "#PWR040"
-			(at 76.2 151.13 0)
+			(at 73.66 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21565,7 +21575,7 @@
 			)
 		)
 		(property "Value" "+3V3_IO"
-			(at 69.088 148.844 90)
+			(at 66.548 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21575,7 +21585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 151.13 0)
+			(at 69.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21586,7 +21596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 151.13 0)
+			(at 69.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21597,7 +21607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 151.13 0)
+			(at 69.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22115,17 +22125,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 77.47 137.16 0)
+		(at 74.93 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9e21a888-71e0-477d-be91-661a252dece6")
 		(property "Reference" "JP9"
-			(at 73.152 138.938 0)
+			(at 70.612 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22135,7 +22145,7 @@
 			)
 		)
 		(property "Value" "SCL_PU"
-			(at 80.772 139.192 0)
+			(at 78.232 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22145,7 +22155,7 @@
 			)
 		)
 		(property "Footprint" "top_board_pizero:SolderJumper-2_smol_Open"
-			(at 77.47 137.16 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22156,7 +22166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 137.16 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22167,7 +22177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 137.16 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22178,7 +22188,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 77.47 137.16 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22189,7 +22199,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 77.47 137.16 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22815,7 +22825,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 85.09 137.16 90)
+		(at 82.55 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22825,7 +22835,7 @@
 		(dnp no)
 		(uuid "affb3b11-7724-41b1-abbe-c4022146a17f")
 		(property "Reference" "R129"
-			(at 85.09 139.7 90)
+			(at 82.55 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22837,7 +22847,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 86.36 137.16 90)
+			(at 83.82 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22848,7 +22858,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 137.16 0)
+			(at 82.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22859,7 +22869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 137.16 0)
+			(at 82.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22870,7 +22880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 137.16 0)
+			(at 82.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22881,7 +22891,7 @@
 			)
 		)
 		(property "LCSC Part" "C4109"
-			(at 85.09 137.16 0)
+			(at 82.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22892,7 +22902,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 85.09 137.16 90)
+			(at 82.55 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24676,7 +24686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 120.65 90)
+		(at 78.74 114.3 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -24687,7 +24697,7 @@
 		(dnp no)
 		(uuid "d0c8d0c1-82b6-4069-baba-b18b18ccfa0a")
 		(property "Reference" "R125"
-			(at 78.994 126.746 90)
+			(at 76.454 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24698,7 +24708,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 83.312 120.65 90)
+			(at 80.772 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24709,7 +24719,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 120.65 0)
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24720,7 +24730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 120.65 0)
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24731,7 +24741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 120.65 0)
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24742,7 +24752,7 @@
 			)
 		)
 		(property "LCSC Part" "C25105"
-			(at 81.28 120.65 0)
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,7 +24763,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 81.28 120.65 90)
+			(at 78.74 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24764,7 +24774,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 81.28 120.65 90)
+			(at 78.74 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24875,7 +24885,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d49b5d87-01dc-48a1-8409-cfc95829947f")
 		(property "Reference" "JP10"
@@ -25321,7 +25331,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 135.89 90)
+		(at 68.58 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25331,7 +25341,7 @@
 		(dnp no)
 		(uuid "d983a4b5-8812-4233-ab35-150bd88d7207")
 		(property "Reference" "#PWR0312"
-			(at 74.93 135.89 0)
+			(at 72.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25342,7 +25352,7 @@
 			)
 		)
 		(property "Value" "3V3_Pi_1"
-			(at 68.58 135.89 90)
+			(at 69.596 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25353,7 +25363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 135.89 0)
+			(at 68.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25364,7 +25374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 135.89 0)
+			(at 68.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25375,7 +25385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 135.89 0)
+			(at 68.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26058,7 +26068,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 153.67 90)
+		(at 73.66 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26068,7 +26078,7 @@
 		(dnp no)
 		(uuid "e369f274-ee6e-4c03-8fd8-9e4fd69680d5")
 		(property "Reference" "R79"
-			(at 78.232 155.448 90)
+			(at 75.692 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26079,7 +26089,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 81.788 152.4 90)
+			(at 79.248 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26090,7 +26100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 153.67 0)
+			(at 73.66 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26101,7 +26111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 153.67 0)
+			(at 73.66 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26112,7 +26122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 153.67 0)
+			(at 73.66 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26123,7 +26133,7 @@
 			)
 		)
 		(property "LCSC Part" "C25794"
-			(at 76.2 153.67 0)
+			(at 73.66 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26134,7 +26144,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 76.2 153.67 90)
+			(at 73.66 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26161,7 +26171,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 109.22 90)
+		(at 78.74 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26171,7 +26181,7 @@
 		(dnp no)
 		(uuid "e4e57f79-4e0b-4799-b645-0c1639a41a17")
 		(property "Reference" "R123"
-			(at 78.994 110.998 90)
+			(at 76.454 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26182,7 +26192,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 83.312 109.22 90)
+			(at 80.772 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26193,7 +26203,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 109.22 0)
+			(at 78.74 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26204,7 +26214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 109.22 0)
+			(at 78.74 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26215,7 +26225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 109.22 0)
+			(at 78.74 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26226,7 +26236,7 @@
 			)
 		)
 		(property "LCSC Part" "C25105"
-			(at 81.28 109.22 0)
+			(at 78.74 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26237,7 +26247,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 81.28 109.22 90)
+			(at 78.74 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26248,7 +26258,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 81.28 109.22 90)
+			(at 78.74 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26444,17 +26454,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 72.39 167.64 0)
+		(at 29.21 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e9e34e9a-a902-4333-835b-9f130611f58a")
 		(property "Reference" "JP12"
-			(at 72.39 165.1 0)
+			(at 29.21 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26464,7 +26474,7 @@
 			)
 		)
 		(property "Value" "IO1"
-			(at 72.898 168.91 0)
+			(at 29.718 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26474,7 +26484,7 @@
 			)
 		)
 		(property "Footprint" "top_board_pizero:SolderJumper-2_smol_Open"
-			(at 72.39 167.64 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26485,7 +26495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 167.64 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26496,7 +26506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 167.64 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26507,7 +26517,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 72.39 167.64 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26518,7 +26528,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 72.39 167.64 0)
+			(at 29.21 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

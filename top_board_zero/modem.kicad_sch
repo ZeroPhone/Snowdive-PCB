@@ -5604,6 +5604,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "free (QW)USB port\nwhen modem is\nnot populated"
+		(exclude_from_sim no)
+		(at 110.744 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e9b74e6-acc0-439a-a08b-9100650d9948")
+	)
 	(text "Audio front-end mic + speaker"
 		(exclude_from_sim no)
 		(at 184.912 66.802 0)
@@ -16274,9 +16284,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab81a4bb-3123-474f-b352-d40fb3968e93")
